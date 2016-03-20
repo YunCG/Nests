@@ -1,0 +1,1546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA04B19C1BEF2FBD00B1EFC7 /* NestsStyleSubtitleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA04B19A1BEF2FBD00B1EFC7 /* NestsStyleSubtitleTableViewCell.m */; };
+		DA04B19D1BEF2FBD00B1EFC7 /* NestsStyleSubtitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA04B19B1BEF2FBD00B1EFC7 /* NestsStyleSubtitleTableViewCell.xib */; };
+		DA04B1A31BEF39E200B1EFC7 /* CornerHomeInfoData.m in Sources */ = {isa = PBXBuildFile; fileRef = DA04B1A21BEF39E200B1EFC7 /* CornerHomeInfoData.m */; };
+		DA04B1A61BEF39F700B1EFC7 /* CornerHomeInfoData+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA04B1A51BEF39F700B1EFC7 /* CornerHomeInfoData+Operation.m */; };
+		DA0A70251C02A42A00A8B3BA /* ASIHTTPClicent.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0A70211C02A42A00A8B3BA /* ASIHTTPClicent.m */; };
+		DA0A70261C02A42A00A8B3BA /* NetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0A70241C02A42A00A8B3BA /* NetworkHelper.m */; };
+		DA0A70351C02A47A00A8B3BA /* CQAnalyticDataInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0A70291C02A47A00A8B3BA /* CQAnalyticDataInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DA0A70361C02A47A00A8B3BA /* CQASIHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0A702B1C02A47A00A8B3BA /* CQASIHttpClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DA0A70371C02A47A00A8B3BA /* CQASIHTTPRequestAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0A702D1C02A47A00A8B3BA /* CQASIHTTPRequestAttribute.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DA0A70381C02A47A00A8B3BA /* CQASIHTTPRequestHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0A702F1C02A47A00A8B3BA /* CQASIHTTPRequestHTTPClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DA0A70391C02A47A00A8B3BA /* CQHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0A70311C02A47A00A8B3BA /* CQHttpClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DA0A703A1C02A47A00A8B3BA /* CQNetworkProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0A70341C02A47A00A8B3BA /* CQNetworkProgressView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DA0B4F061BF7DF4900D9E0AC /* NestsPersonInfoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B4F051BF7DF4900D9E0AC /* NestsPersonInfoEditViewController.m */; };
+		DA0B4F091BF7E5A000D9E0AC /* NestsBaseViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B4F081BF7E5A000D9E0AC /* NestsBaseViewController+Helper.m */; };
+		DA0B4F0D1BF7F15100D9E0AC /* NestsStyleTextField_0_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B4F0B1BF7F15100D9E0AC /* NestsStyleTextField_0_TableViewCell.m */; };
+		DA0B4F0E1BF7F15100D9E0AC /* NestsStyleTextField_0_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA0B4F0C1BF7F15100D9E0AC /* NestsStyleTextField_0_TableViewCell.xib */; };
+		DA0B4F111BF7FC1600D9E0AC /* UIViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B4F101BF7FC1600D9E0AC /* UIViewController+Helper.m */; };
+		DA0B4F141BF7FD4900D9E0AC /* NestsPersonInfoEditNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B4F131BF7FD4900D9E0AC /* NestsPersonInfoEditNameViewController.m */; };
+		DA0B4F181BF804B300D9E0AC /* NestsStyleTextField_1_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B4F161BF804B300D9E0AC /* NestsStyleTextField_1_TableViewCell.m */; };
+		DA0B4F191BF804B300D9E0AC /* NestsStyleTextField_1_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA0B4F171BF804B300D9E0AC /* NestsStyleTextField_1_TableViewCell.xib */; };
+		DA0B4F1C1BF8124C00D9E0AC /* NestsPersonInfoPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B4F1B1BF8124B00D9E0AC /* NestsPersonInfoPhoneViewController.m */; };
+		DA0B4F201BF8163200D9E0AC /* NestsStyleBtn_0_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B4F1E1BF8163200D9E0AC /* NestsStyleBtn_0_TableViewCell.m */; };
+		DA0B4F211BF8163200D9E0AC /* NestsStyleBtn_0_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA0B4F1F1BF8163200D9E0AC /* NestsStyleBtn_0_TableViewCell.xib */; };
+		DA0B4F241BF8235000D9E0AC /* NestsLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B4F231BF8235000D9E0AC /* NestsLoginViewController.m */; };
+		DA0B4F281BF8416200D9E0AC /* NestsStyleTextField_2_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B4F261BF8416200D9E0AC /* NestsStyleTextField_2_TableViewCell.m */; };
+		DA0B4F291BF8416200D9E0AC /* NestsStyleTextField_2_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA0B4F271BF8416200D9E0AC /* NestsStyleTextField_2_TableViewCell.xib */; };
+		DA0C49CF1BA3F4CD00889688 /* NestsResideMenuFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0C49C81BA3F4CD00889688 /* NestsResideMenuFirstViewController.m */; };
+		DA0C49D01BA3F4CD00889688 /* NestsResideMenuSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0C49CA1BA3F4CD00889688 /* NestsResideMenuSecondViewController.m */; };
+		DA0C49D11BA3F4CD00889688 /* NestsResideMenuLeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0C49CC1BA3F4CD00889688 /* NestsResideMenuLeftMenuViewController.m */; };
+		DA0C49D21BA3F4CD00889688 /* NestsResideMenuRightMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0C49CE1BA3F4CD00889688 /* NestsResideMenuRightMenuViewController.m */; };
+		DA0CCF951C75204F00396E53 /* NestsEvaluateDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0CCF941C75204F00396E53 /* NestsEvaluateDetailViewController.m */; };
+		DA0CCF981C75301000396E53 /* CornerShopingAppraiseInfoData.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0CCF971C75301000396E53 /* CornerShopingAppraiseInfoData.m */; };
+		DA0CCF9E1C75309200396E53 /* CornerShopingAppraiseInfoData+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0CCF9D1C75309200396E53 /* CornerShopingAppraiseInfoData+Operation.m */; };
+		DA12F1FA1BADBF8C00A5C8C4 /* MACalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA12F1F91BADBF8C00A5C8C4 /* MACalloutView.m */; };
+		DA12F1FD1BADC0AA00A5C8C4 /* MAForAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA12F1FC1BADC0AA00A5C8C4 /* MAForAnnotationView.m */; };
+		DA16198F1BFB6A9400FC4C1F /* NestsSelectPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = DA16198E1BFB6A9400FC4C1F /* NestsSelectPlan.m */; };
+		DA1619911BFB6AAC00FC4C1F /* NestsSelectPlan.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1619901BFB6AAC00FC4C1F /* NestsSelectPlan.xib */; };
+		DA1619951BFB7A2800FC4C1F /* NestsStyleText_1_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1619931BFB7A2800FC4C1F /* NestsStyleText_1_TableViewCell.m */; };
+		DA1619961BFB7A2800FC4C1F /* NestsStyleText_1_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA1619941BFB7A2800FC4C1F /* NestsStyleText_1_TableViewCell.xib */; };
+		DA1619991BFB7E2200FC4C1F /* CornerScoreInfoData.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1619981BFB7E2200FC4C1F /* CornerScoreInfoData.m */; };
+		DA16199C1BFB7E3F00FC4C1F /* CornerScoreInfoData+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA16199B1BFB7E3F00FC4C1F /* CornerScoreInfoData+Operation.m */; };
+		DA25A4541C13036900D8E131 /* NestsQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA25A4531C13036900D8E131 /* NestsQRViewController.m */; };
+		DA4094641BAD491400A4E6F1 /* CornerNestsResideMenuInfoData.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4094631BAD491400A4E6F1 /* CornerNestsResideMenuInfoData.m */; };
+		DA4094671BAD495A00A4E6F1 /* CornerNestsResideMenuInfoData+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4094661BAD495A00A4E6F1 /* CornerNestsResideMenuInfoData+Operation.m */; };
+		DA41085A1C2E3FEF001A40D6 /* NestsCountButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4108591C2E3FEE001A40D6 /* NestsCountButton.m */; };
+		DA4BE8D21C099F0E00645311 /* NestsParallaxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4BE8D11C099F0E00645311 /* NestsParallaxViewController.m */; };
+		DA4BE8D81C09F94700645311 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4BE8D71C09F94700645311 /* UIImage+ImageEffects.m */; };
+		DA4BE8DB1C09F95E00645311 /* NestsParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4BE8DA1C09F95E00645311 /* NestsParallaxHeaderView.m */; };
+		DA4BE8E21C0A096100645311 /* NestsParallax_0_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA4BE8E01C0A096100645311 /* NestsParallax_0_TableViewCell.m */; };
+		DA4BE8E31C0A096100645311 /* NestsParallax_0_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA4BE8E11C0A096100645311 /* NestsParallax_0_TableViewCell.xib */; };
+		DA55F5EE1C8A7DCE009B5D02 /* NestsAppInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA55F5EB1C8A7DCE009B5D02 /* NestsAppInfoViewController.xib */; };
+		DA55F5EF1C8A7DCE009B5D02 /* NestsAppInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA55F5ED1C8A7DCE009B5D02 /* NestsAppInfoViewController.m */; };
+		DA5F004B1AF5C74800CEDCC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F004A1AF5C74800CEDCC5 /* main.m */; };
+		DA5F004E1AF5C74800CEDCC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F004D1AF5C74800CEDCC5 /* AppDelegate.m */; };
+		DA5F00511AF5C74800CEDCC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F00501AF5C74800CEDCC5 /* ViewController.m */; };
+		DA5F00561AF5C74800CEDCC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5F00551AF5C74800CEDCC5 /* Images.xcassets */; };
+		DA5F00651AF5C74800CEDCC5 /* NestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F00641AF5C74800CEDCC5 /* NestsTests.m */; };
+		DA5F007E1AF5DC6F00CEDCC5 /* NestsHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F007D1AF5DC6F00CEDCC5 /* NestsHelper.m */; };
+		DA5F00841AF5E20A00CEDCC5 /* NestsKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F00831AF5E20A00CEDCC5 /* NestsKit.m */; };
+		DA5F00881AF5E26C00CEDCC5 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F00871AF5E26C00CEDCC5 /* NSString+Helper.m */; };
+		DA5F008B1AF5E28600CEDCC5 /* UIImage+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F008A1AF5E28600CEDCC5 /* UIImage+Helper.m */; };
+		DA5F008E1AF5E29F00CEDCC5 /* NSObject+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F008D1AF5E29F00CEDCC5 /* NSObject+Helper.m */; };
+		DA5F00911AF5E2B600CEDCC5 /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F00901AF5E2B600CEDCC5 /* UIView+Helper.m */; };
+		DA5F00941AF5E2E100CEDCC5 /* NSMutableDictionary+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F00931AF5E2E000CEDCC5 /* NSMutableDictionary+Helper.m */; };
+		DA5F00971AF5E40B00CEDCC5 /* UIImageView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F00961AF5E40B00CEDCC5 /* UIImageView+Helper.m */; };
+		DA5F009A1AF5EC9000CEDCC5 /* NSData+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F00991AF5EC9000CEDCC5 /* NSData+Helper.m */; };
+		DA5F009D1AF5ED0F00CEDCC5 /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F009C1AF5ED0F00CEDCC5 /* NSDate+Helper.m */; };
+		DA5F00A01AF5FC9100CEDCC5 /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F009F1AF5FC9100CEDCC5 /* LibraryAPI.m */; };
+		DA5F00A31AF5FD7300CEDCC5 /* NestsSceneDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F00A21AF5FD7300CEDCC5 /* NestsSceneDispatch.m */; };
+		DA5F00A91AF6020000CEDCC5 /* NestsBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F00A81AF6020000CEDCC5 /* NestsBaseViewController.m */; };
+		DA5F00AC1AF6022300CEDCC5 /* NestsRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F00AB1AF6022300CEDCC5 /* NestsRootViewController.m */; };
+		DA5F00AF1AF6080100CEDCC5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA5F00B11AF6080100CEDCC5 /* Localizable.strings */; };
+		DA5F00B61AF60BDB00CEDCC5 /* birthday.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA5F00B41AF60BDB00CEDCC5 /* birthday.ttf */; };
+		DA5F00B71AF60BDB00CEDCC5 /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA5F00B51AF60BDB00CEDCC5 /* digital-7.ttf */; };
+		DA5F00BB1AF6450800CEDCC5 /* SvUDIDTools.m in Sources */ = {isa = PBXBuildFile; fileRef = DA5F00BA1AF6450800CEDCC5 /* SvUDIDTools.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DA6C2D1B1C1C7A2D00CB329F /* NestsAMapKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6C2D1A1C1C7A2D00CB329F /* NestsAMapKit.m */; };
+		DA847DA51C42095600DDFA2E /* NestsError.png in Resources */ = {isa = PBXBuildFile; fileRef = DA847DA31C42095600DDFA2E /* NestsError.png */; };
+		DA847DA61C42095600DDFA2E /* NestsWebViewError.html in Resources */ = {isa = PBXBuildFile; fileRef = DA847DA41C42095600DDFA2E /* NestsWebViewError.html */; };
+		DA86422D1C2FF8E500DB07BD /* score_str.txt in Resources */ = {isa = PBXBuildFile; fileRef = DA86422C1C2FF8E500DB07BD /* score_str.txt */; };
+		DA8642301C30019800DB07BD /* NestsShopingAppraiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA86422F1C30019800DB07BD /* NestsShopingAppraiseViewController.m */; };
+		DA8642341C30057A00DB07BD /* NestsShopingAppraiseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8642321C30057900DB07BD /* NestsShopingAppraiseTableViewCell.m */; };
+		DA8642351C30057A00DB07BD /* NestsShopingAppraiseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8642331C30057A00DB07BD /* NestsShopingAppraiseTableViewCell.xib */; };
+		DAAF224A1BA506E000B8EBFD /* CornerSettingInfoData.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAF22491BA506E000B8EBFD /* CornerSettingInfoData.m */; };
+		DAAF224D1BA5075A00B8EBFD /* CornerSettingInfoData+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAF224C1BA5075A00B8EBFD /* CornerSettingInfoData+Operation.m */; };
+		DAAF22511BA5920300B8EBFD /* NestsSQLite.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAF22501BA5920300B8EBFD /* NestsSQLite.m */; };
+		DAAF22541BA59C5E00B8EBFD /* CornerMessagesInfoData.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAF22531BA59C5E00B8EBFD /* CornerMessagesInfoData.m */; };
+		DAAF22571BA59C7A00B8EBFD /* CornerMessagesInfoData+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = DAAF22561BA59C7A00B8EBFD /* CornerMessagesInfoData+Operation.m */; };
+		DAB805361C13AFBE0020A1D8 /* NestsBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB805351C13AFBE0020A1D8 /* NestsBoardView.m */; };
+		DAB805381C13AFD90020A1D8 /* NestsBoardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB805371C13AFD90020A1D8 /* NestsBoardView.xib */; };
+		DAB8053B1C13C2CF0020A1D8 /* NestsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB8053A1C13C2CF0020A1D8 /* NestsListViewController.m */; };
+		DAB8053E1C13C2E20020A1D8 /* NestsMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB8053D1C13C2E10020A1D8 /* NestsMapViewController.m */; };
+		DAB805451C13D1F10020A1D8 /* NestsBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB805431C13D1F10020A1D8 /* NestsBoardViewController.m */; };
+		DAB805461C13D1F10020A1D8 /* NestsBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB805441C13D1F10020A1D8 /* NestsBoardViewController.xib */; };
+		DAB8054A1C13E1280020A1D8 /* NestsQRTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB805481C13E1280020A1D8 /* NestsQRTableViewCell.m */; };
+		DAB8054B1C13E1280020A1D8 /* NestsQRTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB805491C13E1280020A1D8 /* NestsQRTableViewCell.xib */; };
+		DAB8054E1C13E5210020A1D8 /* CornerQCInfoData.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB8054D1C13E5210020A1D8 /* CornerQCInfoData.m */; };
+		DAB805511C13E5440020A1D8 /* CornerQCInfoData+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB805501C13E5440020A1D8 /* CornerQCInfoData+Operation.m */; };
+		DAB8E5671BF0D0FC00E582F2 /* NestsPersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB8E5661BF0D0FC00E582F2 /* NestsPersonInfoViewController.m */; };
+		DAB8E56B1BF0D2A500E582F2 /* NestsStyleImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB8E5691BF0D2A500E582F2 /* NestsStyleImageTableViewCell.m */; };
+		DAB8E56C1BF0D2A500E582F2 /* NestsStyleImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB8E56A1BF0D2A500E582F2 /* NestsStyleImageTableViewCell.xib */; };
+		DAB8E5701BF0D48600E582F2 /* NestsStyleText_0_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB8E56E1BF0D48600E582F2 /* NestsStyleText_0_TableViewCell.m */; };
+		DAB8E5711BF0D48600E582F2 /* NestsStyleText_0_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB8E56F1BF0D48600E582F2 /* NestsStyleText_0_TableViewCell.xib */; };
+		DAB8E5741BF0D8C400E582F2 /* CornerPersonInfoData.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB8E5731BF0D8C400E582F2 /* CornerPersonInfoData.m */; };
+		DAB8E5771BF0D8E400E582F2 /* CornerPersonInfoData+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB8E5761BF0D8E400E582F2 /* CornerPersonInfoData+Operation.m */; };
+		DABA13B01BF8C7C3005762E2 /* NestsScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DABA13AF1BF8C7C3005762E2 /* NestsScoreViewController.m */; };
+		DABA48191C2ED14400936F49 /* NestsAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DABA48181C2ED14400936F49 /* NestsAreaViewController.m */; };
+		DAC627201BA4648C00EFF3B8 /* NestsHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC6271F1BA4648C00EFF3B8 /* NestsHomeViewController.m */; };
+		DAC627231BA4712100EFF3B8 /* NestsSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC627221BA4712100EFF3B8 /* NestsSettingViewController.m */; };
+		DAC627291BA471E200EFF3B8 /* NestsEvaluateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC627281BA471E200EFF3B8 /* NestsEvaluateViewController.m */; };
+		DACA1CB51C0A8E5600F1EF1D /* NestsParallax_1_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DACA1CB31C0A8E5600F1EF1D /* NestsParallax_1_TableViewCell.m */; };
+		DACA1CB61C0A8E5600F1EF1D /* NestsParallax_1_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACA1CB41C0A8E5600F1EF1D /* NestsParallax_1_TableViewCell.xib */; };
+		DACA1CB91C0A91FD00F1EF1D /* CornerParallaxInfoData.m in Sources */ = {isa = PBXBuildFile; fileRef = DACA1CB81C0A91FD00F1EF1D /* CornerParallaxInfoData.m */; };
+		DACA1CBC1C0A922300F1EF1D /* CornerParallaxInfoData+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = DACA1CBB1C0A922300F1EF1D /* CornerParallaxInfoData+Operation.m */; };
+		DACA1CC01C0AA85D00F1EF1D /* NestsStylePattern_0_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DACA1CBE1C0AA85D00F1EF1D /* NestsStylePattern_0_TableViewCell.m */; };
+		DACA1CC11C0AA85D00F1EF1D /* NestsStylePattern_0_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACA1CBF1C0AA85D00F1EF1D /* NestsStylePattern_0_TableViewCell.xib */; };
+		DACA1CC51C0AB26700F1EF1D /* NestsStylePattern_1_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DACA1CC31C0AB26700F1EF1D /* NestsStylePattern_1_TableViewCell.m */; };
+		DACA1CC61C0AB26700F1EF1D /* NestsStylePattern_1_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACA1CC41C0AB26700F1EF1D /* NestsStylePattern_1_TableViewCell.xib */; };
+		DACA1CCA1C0ABB6D00F1EF1D /* NestsStylePattern_2_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DACA1CC81C0ABB6D00F1EF1D /* NestsStylePattern_2_TableViewCell.m */; };
+		DACA1CCB1C0ABB6D00F1EF1D /* NestsStylePattern_2_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACA1CC91C0ABB6D00F1EF1D /* NestsStylePattern_2_TableViewCell.xib */; };
+		DACA1CD11C0AE04300F1EF1D /* NestsMMScrollPage.m in Sources */ = {isa = PBXBuildFile; fileRef = DACA1CCE1C0AE04300F1EF1D /* NestsMMScrollPage.m */; };
+		DACA1CD21C0AE04300F1EF1D /* NestsMMScrollPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = DACA1CD01C0AE04300F1EF1D /* NestsMMScrollPresenter.m */; };
+		DACFB8D51C00B8C500E199A2 /* NestsStyleSubtitle_0_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DACFB8D31C00B8C500E199A2 /* NestsStyleSubtitle_0_TableViewCell.m */; };
+		DACFB8D61C00B8C500E199A2 /* NestsStyleSubtitle_0_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACFB8D41C00B8C500E199A2 /* NestsStyleSubtitle_0_TableViewCell.xib */; };
+		DACFB8D91C00BB7300E199A2 /* CornerEvaluateInfoData.m in Sources */ = {isa = PBXBuildFile; fileRef = DACFB8D81C00BB7300E199A2 /* CornerEvaluateInfoData.m */; };
+		DACFB8DC1C00BBA000E199A2 /* CornerEvaluateInfoData+Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = DACFB8DB1C00BBA000E199A2 /* CornerEvaluateInfoData+Operation.m */; };
+		DACFB8DE1C015EEA00E199A2 /* NestsStyleSubtitle_0_0_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACFB8DD1C015EEA00E199A2 /* NestsStyleSubtitle_0_0_TableViewCell.xib */; };
+		DACFB8E11C016EAE00E199A2 /* NestsEvaluateBIZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DACFB8E01C016EAE00E199A2 /* NestsEvaluateBIZViewController.m */; };
+		DACFB8E51C01733A00E199A2 /* NestsStyleEvalue_0_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DACFB8E31C01733A00E199A2 /* NestsStyleEvalue_0_TableViewCell.m */; };
+		DACFB8E61C01733A00E199A2 /* NestsStyleEvalue_0_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACFB8E41C01733A00E199A2 /* NestsStyleEvalue_0_TableViewCell.xib */; };
+		DACFB8EC1C0182A400E199A2 /* NestsStyleEvalue_1_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DACFB8EA1C0182A400E199A2 /* NestsStyleEvalue_1_TableViewCell.m */; };
+		DACFB8ED1C0182A400E199A2 /* NestsStyleEvalue_1_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACFB8EB1C0182A400E199A2 /* NestsStyleEvalue_1_TableViewCell.xib */; };
+		DAD8E1781C3E7FA300FAB5F5 /* WebViewJavascriptBridge.js.txt in Resources */ = {isa = PBXBuildFile; fileRef = DAD8E1721C3E7FA300FAB5F5 /* WebViewJavascriptBridge.js.txt */; };
+		DAD8E1791C3E7FA300FAB5F5 /* WebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD8E1731C3E7FA300FAB5F5 /* WebViewJavascriptBridge.m */; };
+		DAD8E17A1C3E7FA300FAB5F5 /* WebViewJavascriptBridgeBase.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD8E1751C3E7FA300FAB5F5 /* WebViewJavascriptBridgeBase.m */; };
+		DAD8E17B1C3E7FA300FAB5F5 /* WKWebViewJavascriptBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD8E1771C3E7FA300FAB5F5 /* WKWebViewJavascriptBridge.m */; };
+		DAD8E1821C3E824B00FAB5F5 /* NestsWebViewLibrary.js in Resources */ = {isa = PBXBuildFile; fileRef = DAD8E1801C3E824B00FAB5F5 /* NestsWebViewLibrary.js */; };
+		DAD8E1831C3E824B00FAB5F5 /* NestsWebView.html in Resources */ = {isa = PBXBuildFile; fileRef = DAD8E1811C3E824B00FAB5F5 /* NestsWebView.html */; };
+		DAD8E1861C3E829C00FAB5F5 /* NestsWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD8E1841C3E829C00FAB5F5 /* NestsWebViewController.m */; };
+		DAD8E1891C3E82AC00FAB5F5 /* NestsMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD8E1881C3E82AC00FAB5F5 /* NestsMessageViewController.m */; };
+		DAD8E18B1C3E863000FAB5F5 /* ExampleApp.html in Resources */ = {isa = PBXBuildFile; fileRef = DAD8E18A1C3E863000FAB5F5 /* ExampleApp.html */; };
+		DAE9D40E1BA7153300E7E2B3 /* UITextView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE9D40D1BA7153300E7E2B3 /* UITextView+Helper.m */; };
+		DAEA03BD1C2A355B00F69850 /* NestsOffLine_1_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEA03BB1C2A355B00F69850 /* NestsOffLine_1_TableViewCell.m */; };
+		DAEA03BE1C2A355B00F69850 /* NestsOffLine_1_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAEA03BC1C2A355B00F69850 /* NestsOffLine_1_TableViewCell.xib */; };
+		DAEA03C11C2A42CC00F69850 /* MAHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAEA03C01C2A42CC00F69850 /* MAHeaderView.m */; };
+		DAFE085D1C2A0871005B38AB /* NestsOfflineDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFE085C1C2A0871005B38AB /* NestsOfflineDetailViewController.m */; };
+		DAFE08611C2A0B7E005B38AB /* NestsOffLine_0_TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DAFE085F1C2A0B7E005B38AB /* NestsOffLine_0_TableViewCell.m */; };
+		DAFE08621C2A0B7E005B38AB /* NestsOffLine_0_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAFE08601C2A0B7E005B38AB /* NestsOffLine_0_TableViewCell.xib */; };
+		DB57FC0D1636588B30CCF8D6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E2BAC16B94D6DC428CAEE79 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA5F005F1AF5C74800CEDCC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA5F003D1AF5C74800CEDCC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA5F00441AF5C74800CEDCC5;
+			remoteInfo = Nests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		301D4BA696681EE0DE7A03B7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8E2BAC16B94D6DC428CAEE79 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF52D01B94B9728EC17E217 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DA04B1991BEF2FBD00B1EFC7 /* NestsStyleSubtitleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsStyleSubtitleTableViewCell.h; sourceTree = "<group>"; };
+		DA04B19A1BEF2FBD00B1EFC7 /* NestsStyleSubtitleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsStyleSubtitleTableViewCell.m; sourceTree = "<group>"; };
+		DA04B19B1BEF2FBD00B1EFC7 /* NestsStyleSubtitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsStyleSubtitleTableViewCell.xib; sourceTree = "<group>"; };
+		DA04B1A11BEF39E200B1EFC7 /* CornerHomeInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerHomeInfoData.h; sourceTree = "<group>"; };
+		DA04B1A21BEF39E200B1EFC7 /* CornerHomeInfoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerHomeInfoData.m; sourceTree = "<group>"; };
+		DA04B1A41BEF39F700B1EFC7 /* CornerHomeInfoData+Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CornerHomeInfoData+Operation.h"; sourceTree = "<group>"; };
+		DA04B1A51BEF39F700B1EFC7 /* CornerHomeInfoData+Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CornerHomeInfoData+Operation.m"; sourceTree = "<group>"; };
+		DA0A70201C02A42A00A8B3BA /* ASIHTTPClicent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPClicent.h; sourceTree = "<group>"; };
+		DA0A70211C02A42A00A8B3BA /* ASIHTTPClicent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPClicent.m; sourceTree = "<group>"; };
+		DA0A70221C02A42A00A8B3BA /* NetworkConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConfigs.h; sourceTree = "<group>"; };
+		DA0A70231C02A42A00A8B3BA /* NetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkHelper.h; sourceTree = "<group>"; };
+		DA0A70241C02A42A00A8B3BA /* NetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkHelper.m; sourceTree = "<group>"; };
+		DA0A70281C02A47A00A8B3BA /* CQAnalyticDataInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQAnalyticDataInfo.h; sourceTree = "<group>"; };
+		DA0A70291C02A47A00A8B3BA /* CQAnalyticDataInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQAnalyticDataInfo.m; sourceTree = "<group>"; };
+		DA0A702A1C02A47A00A8B3BA /* CQASIHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQASIHttpClient.h; sourceTree = "<group>"; };
+		DA0A702B1C02A47A00A8B3BA /* CQASIHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQASIHttpClient.m; sourceTree = "<group>"; };
+		DA0A702C1C02A47A00A8B3BA /* CQASIHTTPRequestAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQASIHTTPRequestAttribute.h; sourceTree = "<group>"; };
+		DA0A702D1C02A47A00A8B3BA /* CQASIHTTPRequestAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQASIHTTPRequestAttribute.m; sourceTree = "<group>"; };
+		DA0A702E1C02A47A00A8B3BA /* CQASIHTTPRequestHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQASIHTTPRequestHTTPClient.h; sourceTree = "<group>"; };
+		DA0A702F1C02A47A00A8B3BA /* CQASIHTTPRequestHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQASIHTTPRequestHTTPClient.m; sourceTree = "<group>"; };
+		DA0A70301C02A47A00A8B3BA /* CQHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQHttpClient.h; sourceTree = "<group>"; };
+		DA0A70311C02A47A00A8B3BA /* CQHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQHttpClient.m; sourceTree = "<group>"; };
+		DA0A70321C02A47A00A8B3BA /* CQNetworkConfigs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQNetworkConfigs.h; sourceTree = "<group>"; };
+		DA0A70331C02A47A00A8B3BA /* CQNetworkProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQNetworkProgressView.h; sourceTree = "<group>"; };
+		DA0A70341C02A47A00A8B3BA /* CQNetworkProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQNetworkProgressView.m; sourceTree = "<group>"; };
+		DA0B4F041BF7DF4900D9E0AC /* NestsPersonInfoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsPersonInfoEditViewController.h; sourceTree = "<group>"; };
+		DA0B4F051BF7DF4900D9E0AC /* NestsPersonInfoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsPersonInfoEditViewController.m; sourceTree = "<group>"; };
+		DA0B4F071BF7E5A000D9E0AC /* NestsBaseViewController+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NestsBaseViewController+Helper.h"; sourceTree = "<group>"; };
+		DA0B4F081BF7E5A000D9E0AC /* NestsBaseViewController+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NestsBaseViewController+Helper.m"; sourceTree = "<group>"; };
+		DA0B4F0A1BF7F15100D9E0AC /* NestsStyleTextField_0_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsStyleTextField_0_TableViewCell.h; sourceTree = "<group>"; };
+		DA0B4F0B1BF7F15100D9E0AC /* NestsStyleTextField_0_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsStyleTextField_0_TableViewCell.m; sourceTree = "<group>"; };
+		DA0B4F0C1BF7F15100D9E0AC /* NestsStyleTextField_0_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsStyleTextField_0_TableViewCell.xib; sourceTree = "<group>"; };
+		DA0B4F0F1BF7FC1600D9E0AC /* UIViewController+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Helper.h"; sourceTree = "<group>"; };
+		DA0B4F101BF7FC1600D9E0AC /* UIViewController+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Helper.m"; sourceTree = "<group>"; };
+		DA0B4F121BF7FD4900D9E0AC /* NestsPersonInfoEditNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsPersonInfoEditNameViewController.h; sourceTree = "<group>"; };
+		DA0B4F131BF7FD4900D9E0AC /* NestsPersonInfoEditNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsPersonInfoEditNameViewController.m; sourceTree = "<group>"; };
+		DA0B4F151BF804B300D9E0AC /* NestsStyleTextField_1_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsStyleTextField_1_TableViewCell.h; sourceTree = "<group>"; };
+		DA0B4F161BF804B300D9E0AC /* NestsStyleTextField_1_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsStyleTextField_1_TableViewCell.m; sourceTree = "<group>"; };
+		DA0B4F171BF804B300D9E0AC /* NestsStyleTextField_1_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsStyleTextField_1_TableViewCell.xib; sourceTree = "<group>"; };
+		DA0B4F1A1BF8124B00D9E0AC /* NestsPersonInfoPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsPersonInfoPhoneViewController.h; sourceTree = "<group>"; };
+		DA0B4F1B1BF8124B00D9E0AC /* NestsPersonInfoPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsPersonInfoPhoneViewController.m; sourceTree = "<group>"; };
+		DA0B4F1D1BF8163200D9E0AC /* NestsStyleBtn_0_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsStyleBtn_0_TableViewCell.h; sourceTree = "<group>"; };
+		DA0B4F1E1BF8163200D9E0AC /* NestsStyleBtn_0_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsStyleBtn_0_TableViewCell.m; sourceTree = "<group>"; };
+		DA0B4F1F1BF8163200D9E0AC /* NestsStyleBtn_0_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsStyleBtn_0_TableViewCell.xib; sourceTree = "<group>"; };
+		DA0B4F221BF8235000D9E0AC /* NestsLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsLoginViewController.h; sourceTree = "<group>"; };
+		DA0B4F231BF8235000D9E0AC /* NestsLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsLoginViewController.m; sourceTree = "<group>"; };
+		DA0B4F251BF8416200D9E0AC /* NestsStyleTextField_2_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsStyleTextField_2_TableViewCell.h; sourceTree = "<group>"; };
+		DA0B4F261BF8416200D9E0AC /* NestsStyleTextField_2_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsStyleTextField_2_TableViewCell.m; sourceTree = "<group>"; };
+		DA0B4F271BF8416200D9E0AC /* NestsStyleTextField_2_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsStyleTextField_2_TableViewCell.xib; sourceTree = "<group>"; };
+		DA0C49C71BA3F4CD00889688 /* NestsResideMenuFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = NestsResideMenuFirstViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DA0C49C81BA3F4CD00889688 /* NestsResideMenuFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NestsResideMenuFirstViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DA0C49C91BA3F4CD00889688 /* NestsResideMenuSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = NestsResideMenuSecondViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DA0C49CA1BA3F4CD00889688 /* NestsResideMenuSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NestsResideMenuSecondViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DA0C49CB1BA3F4CD00889688 /* NestsResideMenuLeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = NestsResideMenuLeftMenuViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DA0C49CC1BA3F4CD00889688 /* NestsResideMenuLeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NestsResideMenuLeftMenuViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DA0C49CD1BA3F4CD00889688 /* NestsResideMenuRightMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = NestsResideMenuRightMenuViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		DA0C49CE1BA3F4CD00889688 /* NestsResideMenuRightMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NestsResideMenuRightMenuViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DA0CCF931C75204F00396E53 /* NestsEvaluateDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsEvaluateDetailViewController.h; sourceTree = "<group>"; };
+		DA0CCF941C75204F00396E53 /* NestsEvaluateDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsEvaluateDetailViewController.m; sourceTree = "<group>"; };
+		DA0CCF961C75301000396E53 /* CornerShopingAppraiseInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerShopingAppraiseInfoData.h; sourceTree = "<group>"; };
+		DA0CCF971C75301000396E53 /* CornerShopingAppraiseInfoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerShopingAppraiseInfoData.m; sourceTree = "<group>"; };
+		DA0CCF9C1C75309200396E53 /* CornerShopingAppraiseInfoData+Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CornerShopingAppraiseInfoData+Operation.h"; sourceTree = "<group>"; };
+		DA0CCF9D1C75309200396E53 /* CornerShopingAppraiseInfoData+Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CornerShopingAppraiseInfoData+Operation.m"; sourceTree = "<group>"; };
+		DA12F1F81BADBF8C00A5C8C4 /* MACalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MACalloutView.h; sourceTree = "<group>"; };
+		DA12F1F91BADBF8C00A5C8C4 /* MACalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MACalloutView.m; sourceTree = "<group>"; };
+		DA12F1FB1BADC0AA00A5C8C4 /* MAForAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAForAnnotationView.h; sourceTree = "<group>"; };
+		DA12F1FC1BADC0AA00A5C8C4 /* MAForAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAForAnnotationView.m; sourceTree = "<group>"; };
+		DA12F1FE1BADC59000A5C8C4 /* Nests.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Nests.entitlements; sourceTree = "<group>"; };
+		DA16198D1BFB6A9400FC4C1F /* NestsSelectPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsSelectPlan.h; sourceTree = "<group>"; };
+		DA16198E1BFB6A9400FC4C1F /* NestsSelectPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsSelectPlan.m; sourceTree = "<group>"; };
+		DA1619901BFB6AAC00FC4C1F /* NestsSelectPlan.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsSelectPlan.xib; sourceTree = "<group>"; };
+		DA1619921BFB7A2800FC4C1F /* NestsStyleText_1_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsStyleText_1_TableViewCell.h; sourceTree = "<group>"; };
+		DA1619931BFB7A2800FC4C1F /* NestsStyleText_1_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsStyleText_1_TableViewCell.m; sourceTree = "<group>"; };
+		DA1619941BFB7A2800FC4C1F /* NestsStyleText_1_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsStyleText_1_TableViewCell.xib; sourceTree = "<group>"; };
+		DA1619971BFB7E2200FC4C1F /* CornerScoreInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerScoreInfoData.h; sourceTree = "<group>"; };
+		DA1619981BFB7E2200FC4C1F /* CornerScoreInfoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerScoreInfoData.m; sourceTree = "<group>"; };
+		DA16199A1BFB7E3F00FC4C1F /* CornerScoreInfoData+Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CornerScoreInfoData+Operation.h"; sourceTree = "<group>"; };
+		DA16199B1BFB7E3F00FC4C1F /* CornerScoreInfoData+Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CornerScoreInfoData+Operation.m"; sourceTree = "<group>"; };
+		DA25A4511C129CFE00D8E131 /* TextFieldCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCellDelegate.h; sourceTree = "<group>"; };
+		DA25A4521C13036900D8E131 /* NestsQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsQRViewController.h; sourceTree = "<group>"; };
+		DA25A4531C13036900D8E131 /* NestsQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsQRViewController.m; sourceTree = "<group>"; };
+		DA4094621BAD491400A4E6F1 /* CornerNestsResideMenuInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerNestsResideMenuInfoData.h; sourceTree = "<group>"; };
+		DA4094631BAD491400A4E6F1 /* CornerNestsResideMenuInfoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerNestsResideMenuInfoData.m; sourceTree = "<group>"; };
+		DA4094651BAD495A00A4E6F1 /* CornerNestsResideMenuInfoData+Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CornerNestsResideMenuInfoData+Operation.h"; sourceTree = "<group>"; };
+		DA4094661BAD495A00A4E6F1 /* CornerNestsResideMenuInfoData+Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CornerNestsResideMenuInfoData+Operation.m"; sourceTree = "<group>"; };
+		DA4108581C2E3FEE001A40D6 /* NestsCountButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsCountButton.h; sourceTree = "<group>"; };
+		DA4108591C2E3FEE001A40D6 /* NestsCountButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsCountButton.m; sourceTree = "<group>"; };
+		DA4BE8D01C099F0E00645311 /* NestsParallaxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsParallaxViewController.h; sourceTree = "<group>"; };
+		DA4BE8D11C099F0E00645311 /* NestsParallaxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsParallaxViewController.m; sourceTree = "<group>"; };
+		DA4BE8D61C09F94700645311 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		DA4BE8D71C09F94700645311 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		DA4BE8D91C09F95E00645311 /* NestsParallaxHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsParallaxHeaderView.h; sourceTree = "<group>"; };
+		DA4BE8DA1C09F95E00645311 /* NestsParallaxHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsParallaxHeaderView.m; sourceTree = "<group>"; };
+		DA4BE8DF1C0A096100645311 /* NestsParallax_0_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsParallax_0_TableViewCell.h; sourceTree = "<group>"; };
+		DA4BE8E01C0A096100645311 /* NestsParallax_0_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsParallax_0_TableViewCell.m; sourceTree = "<group>"; };
+		DA4BE8E11C0A096100645311 /* NestsParallax_0_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsParallax_0_TableViewCell.xib; sourceTree = "<group>"; };
+		DA55F5EB1C8A7DCE009B5D02 /* NestsAppInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsAppInfoViewController.xib; sourceTree = "<group>"; };
+		DA55F5EC1C8A7DCE009B5D02 /* NestsAppInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsAppInfoViewController.h; sourceTree = "<group>"; };
+		DA55F5ED1C8A7DCE009B5D02 /* NestsAppInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsAppInfoViewController.m; sourceTree = "<group>"; };
+		DA5F00451AF5C74800CEDCC5 /* Nests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5F00491AF5C74800CEDCC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA5F004A1AF5C74800CEDCC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA5F004C1AF5C74800CEDCC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA5F004D1AF5C74800CEDCC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		DA5F004F1AF5C74800CEDCC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA5F00501AF5C74800CEDCC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA5F00551AF5C74800CEDCC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DA5F005E1AF5C74800CEDCC5 /* NestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5F00631AF5C74800CEDCC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA5F00641AF5C74800CEDCC5 /* NestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestsTests.m; sourceTree = "<group>"; };
+		DA5F007C1AF5DC6F00CEDCC5 /* NestsHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsHelper.h; sourceTree = "<group>"; };
+		DA5F007D1AF5DC6F00CEDCC5 /* NestsHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsHelper.m; sourceTree = "<group>"; };
+		DA5F007F1AF5DCA800CEDCC5 /* NestsConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestsConfig.h; sourceTree = "<group>"; };
+		DA5F00801AF5DD6200CEDCC5 /* Nests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nests-Prefix.pch"; sourceTree = "<group>"; };
+		DA5F00821AF5E20A00CEDCC5 /* NestsKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsKit.h; sourceTree = "<group>"; };
+		DA5F00831AF5E20A00CEDCC5 /* NestsKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsKit.m; sourceTree = "<group>"; };
+		DA5F00861AF5E26C00CEDCC5 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		DA5F00871AF5E26C00CEDCC5 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		DA5F00891AF5E28600CEDCC5 /* UIImage+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Helper.h"; sourceTree = "<group>"; };
+		DA5F008A1AF5E28600CEDCC5 /* UIImage+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Helper.m"; sourceTree = "<group>"; };
+		DA5F008C1AF5E29F00CEDCC5 /* NSObject+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Helper.h"; sourceTree = "<group>"; };
+		DA5F008D1AF5E29F00CEDCC5 /* NSObject+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Helper.m"; sourceTree = "<group>"; };
+		DA5F008F1AF5E2B600CEDCC5 /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
+		DA5F00901AF5E2B600CEDCC5 /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
+		DA5F00921AF5E2E000CEDCC5 /* NSMutableDictionary+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Helper.h"; sourceTree = "<group>"; };
+		DA5F00931AF5E2E000CEDCC5 /* NSMutableDictionary+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Helper.m"; sourceTree = "<group>"; };
+		DA5F00951AF5E40B00CEDCC5 /* UIImageView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Helper.h"; sourceTree = "<group>"; };
+		DA5F00961AF5E40B00CEDCC5 /* UIImageView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Helper.m"; sourceTree = "<group>"; };
+		DA5F00981AF5EC9000CEDCC5 /* NSData+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Helper.h"; sourceTree = "<group>"; };
+		DA5F00991AF5EC9000CEDCC5 /* NSData+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Helper.m"; sourceTree = "<group>"; };
+		DA5F009B1AF5ED0F00CEDCC5 /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
+		DA5F009C1AF5ED0F00CEDCC5 /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
+		DA5F009E1AF5FC9100CEDCC5 /* LibraryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryAPI.h; sourceTree = "<group>"; };
+		DA5F009F1AF5FC9100CEDCC5 /* LibraryAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryAPI.m; sourceTree = "<group>"; };
+		DA5F00A11AF5FD7300CEDCC5 /* NestsSceneDispatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsSceneDispatch.h; sourceTree = "<group>"; };
+		DA5F00A21AF5FD7300CEDCC5 /* NestsSceneDispatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsSceneDispatch.m; sourceTree = "<group>"; };
+		DA5F00A71AF6020000CEDCC5 /* NestsBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsBaseViewController.h; sourceTree = "<group>"; };
+		DA5F00A81AF6020000CEDCC5 /* NestsBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsBaseViewController.m; sourceTree = "<group>"; };
+		DA5F00AA1AF6022300CEDCC5 /* NestsRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsRootViewController.h; sourceTree = "<group>"; };
+		DA5F00AB1AF6022300CEDCC5 /* NestsRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsRootViewController.m; sourceTree = "<group>"; };
+		DA5F00B01AF6080100CEDCC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DA5F00B31AF6088100CEDCC5 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DA5F00B41AF60BDB00CEDCC5 /* birthday.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = birthday.ttf; sourceTree = "<group>"; };
+		DA5F00B51AF60BDB00CEDCC5 /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		DA5F00B91AF6450800CEDCC5 /* SvUDIDTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SvUDIDTools.h; sourceTree = "<group>"; };
+		DA5F00BA1AF6450800CEDCC5 /* SvUDIDTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SvUDIDTools.m; sourceTree = "<group>"; };
+		DA5F00BE1AF64D8500CEDCC5 /* NestsBaseConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestsBaseConfig.h; sourceTree = "<group>"; };
+		DA6C2D191C1C7A2D00CB329F /* NestsAMapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsAMapKit.h; sourceTree = "<group>"; };
+		DA6C2D1A1C1C7A2D00CB329F /* NestsAMapKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsAMapKit.m; sourceTree = "<group>"; };
+		DA847DA31C42095600DDFA2E /* NestsError.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NestsError.png; sourceTree = "<group>"; };
+		DA847DA41C42095600DDFA2E /* NestsWebViewError.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NestsWebViewError.html; sourceTree = "<group>"; };
+		DA86422C1C2FF8E500DB07BD /* score_str.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = score_str.txt; sourceTree = "<group>"; };
+		DA86422E1C30019800DB07BD /* NestsShopingAppraiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsShopingAppraiseViewController.h; sourceTree = "<group>"; };
+		DA86422F1C30019800DB07BD /* NestsShopingAppraiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsShopingAppraiseViewController.m; sourceTree = "<group>"; };
+		DA8642311C30057900DB07BD /* NestsShopingAppraiseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsShopingAppraiseTableViewCell.h; sourceTree = "<group>"; };
+		DA8642321C30057900DB07BD /* NestsShopingAppraiseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsShopingAppraiseTableViewCell.m; sourceTree = "<group>"; };
+		DA8642331C30057A00DB07BD /* NestsShopingAppraiseTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsShopingAppraiseTableViewCell.xib; sourceTree = "<group>"; };
+		DAAF22481BA506E000B8EBFD /* CornerSettingInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerSettingInfoData.h; sourceTree = "<group>"; };
+		DAAF22491BA506E000B8EBFD /* CornerSettingInfoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerSettingInfoData.m; sourceTree = "<group>"; };
+		DAAF224B1BA5075A00B8EBFD /* CornerSettingInfoData+Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CornerSettingInfoData+Operation.h"; sourceTree = "<group>"; };
+		DAAF224C1BA5075A00B8EBFD /* CornerSettingInfoData+Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CornerSettingInfoData+Operation.m"; sourceTree = "<group>"; };
+		DAAF224F1BA5920300B8EBFD /* NestsSQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsSQLite.h; sourceTree = "<group>"; };
+		DAAF22501BA5920300B8EBFD /* NestsSQLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsSQLite.m; sourceTree = "<group>"; };
+		DAAF22521BA59C5E00B8EBFD /* CornerMessagesInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerMessagesInfoData.h; sourceTree = "<group>"; };
+		DAAF22531BA59C5E00B8EBFD /* CornerMessagesInfoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerMessagesInfoData.m; sourceTree = "<group>"; };
+		DAAF22551BA59C7A00B8EBFD /* CornerMessagesInfoData+Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CornerMessagesInfoData+Operation.h"; sourceTree = "<group>"; };
+		DAAF22561BA59C7A00B8EBFD /* CornerMessagesInfoData+Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CornerMessagesInfoData+Operation.m"; sourceTree = "<group>"; };
+		DAB805341C13AFBE0020A1D8 /* NestsBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsBoardView.h; sourceTree = "<group>"; };
+		DAB805351C13AFBE0020A1D8 /* NestsBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsBoardView.m; sourceTree = "<group>"; };
+		DAB805371C13AFD90020A1D8 /* NestsBoardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsBoardView.xib; sourceTree = "<group>"; };
+		DAB805391C13C2CF0020A1D8 /* NestsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsListViewController.h; sourceTree = "<group>"; };
+		DAB8053A1C13C2CF0020A1D8 /* NestsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsListViewController.m; sourceTree = "<group>"; };
+		DAB8053C1C13C2E10020A1D8 /* NestsMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsMapViewController.h; sourceTree = "<group>"; };
+		DAB8053D1C13C2E10020A1D8 /* NestsMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsMapViewController.m; sourceTree = "<group>"; };
+		DAB805421C13D1F10020A1D8 /* NestsBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsBoardViewController.h; sourceTree = "<group>"; };
+		DAB805431C13D1F10020A1D8 /* NestsBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsBoardViewController.m; sourceTree = "<group>"; };
+		DAB805441C13D1F10020A1D8 /* NestsBoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsBoardViewController.xib; sourceTree = "<group>"; };
+		DAB805471C13E1280020A1D8 /* NestsQRTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsQRTableViewCell.h; sourceTree = "<group>"; };
+		DAB805481C13E1280020A1D8 /* NestsQRTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsQRTableViewCell.m; sourceTree = "<group>"; };
+		DAB805491C13E1280020A1D8 /* NestsQRTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsQRTableViewCell.xib; sourceTree = "<group>"; };
+		DAB8054C1C13E5210020A1D8 /* CornerQCInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerQCInfoData.h; sourceTree = "<group>"; };
+		DAB8054D1C13E5210020A1D8 /* CornerQCInfoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerQCInfoData.m; sourceTree = "<group>"; };
+		DAB8054F1C13E5440020A1D8 /* CornerQCInfoData+Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CornerQCInfoData+Operation.h"; sourceTree = "<group>"; };
+		DAB805501C13E5440020A1D8 /* CornerQCInfoData+Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CornerQCInfoData+Operation.m"; sourceTree = "<group>"; };
+		DAB8E5651BF0D0FC00E582F2 /* NestsPersonInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsPersonInfoViewController.h; sourceTree = "<group>"; };
+		DAB8E5661BF0D0FC00E582F2 /* NestsPersonInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsPersonInfoViewController.m; sourceTree = "<group>"; };
+		DAB8E5681BF0D2A500E582F2 /* NestsStyleImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsStyleImageTableViewCell.h; sourceTree = "<group>"; };
+		DAB8E5691BF0D2A500E582F2 /* NestsStyleImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsStyleImageTableViewCell.m; sourceTree = "<group>"; };
+		DAB8E56A1BF0D2A500E582F2 /* NestsStyleImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsStyleImageTableViewCell.xib; sourceTree = "<group>"; };
+		DAB8E56D1BF0D48600E582F2 /* NestsStyleText_0_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsStyleText_0_TableViewCell.h; sourceTree = "<group>"; };
+		DAB8E56E1BF0D48600E582F2 /* NestsStyleText_0_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsStyleText_0_TableViewCell.m; sourceTree = "<group>"; };
+		DAB8E56F1BF0D48600E582F2 /* NestsStyleText_0_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsStyleText_0_TableViewCell.xib; sourceTree = "<group>"; };
+		DAB8E5721BF0D8C400E582F2 /* CornerPersonInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerPersonInfoData.h; sourceTree = "<group>"; };
+		DAB8E5731BF0D8C400E582F2 /* CornerPersonInfoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerPersonInfoData.m; sourceTree = "<group>"; };
+		DAB8E5751BF0D8E400E582F2 /* CornerPersonInfoData+Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CornerPersonInfoData+Operation.h"; sourceTree = "<group>"; };
+		DAB8E5761BF0D8E400E582F2 /* CornerPersonInfoData+Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CornerPersonInfoData+Operation.m"; sourceTree = "<group>"; };
+		DABA13AE1BF8C7C3005762E2 /* NestsScoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsScoreViewController.h; sourceTree = "<group>"; };
+		DABA13AF1BF8C7C3005762E2 /* NestsScoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsScoreViewController.m; sourceTree = "<group>"; };
+		DABA48171C2ED14400936F49 /* NestsAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsAreaViewController.h; sourceTree = "<group>"; };
+		DABA48181C2ED14400936F49 /* NestsAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsAreaViewController.m; sourceTree = "<group>"; };
+		DAC6271E1BA4648C00EFF3B8 /* NestsHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsHomeViewController.h; sourceTree = "<group>"; };
+		DAC6271F1BA4648C00EFF3B8 /* NestsHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsHomeViewController.m; sourceTree = "<group>"; };
+		DAC627211BA4712100EFF3B8 /* NestsSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsSettingViewController.h; sourceTree = "<group>"; };
+		DAC627221BA4712100EFF3B8 /* NestsSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsSettingViewController.m; sourceTree = "<group>"; };
+		DAC627271BA471E200EFF3B8 /* NestsEvaluateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsEvaluateViewController.h; sourceTree = "<group>"; };
+		DAC627281BA471E200EFF3B8 /* NestsEvaluateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsEvaluateViewController.m; sourceTree = "<group>"; };
+		DACA1CB21C0A8E5600F1EF1D /* NestsParallax_1_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsParallax_1_TableViewCell.h; sourceTree = "<group>"; };
+		DACA1CB31C0A8E5600F1EF1D /* NestsParallax_1_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsParallax_1_TableViewCell.m; sourceTree = "<group>"; };
+		DACA1CB41C0A8E5600F1EF1D /* NestsParallax_1_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsParallax_1_TableViewCell.xib; sourceTree = "<group>"; };
+		DACA1CB71C0A91FD00F1EF1D /* CornerParallaxInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerParallaxInfoData.h; sourceTree = "<group>"; };
+		DACA1CB81C0A91FD00F1EF1D /* CornerParallaxInfoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerParallaxInfoData.m; sourceTree = "<group>"; };
+		DACA1CBA1C0A922300F1EF1D /* CornerParallaxInfoData+Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CornerParallaxInfoData+Operation.h"; sourceTree = "<group>"; };
+		DACA1CBB1C0A922300F1EF1D /* CornerParallaxInfoData+Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CornerParallaxInfoData+Operation.m"; sourceTree = "<group>"; };
+		DACA1CBD1C0AA85D00F1EF1D /* NestsStylePattern_0_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsStylePattern_0_TableViewCell.h; sourceTree = "<group>"; };
+		DACA1CBE1C0AA85D00F1EF1D /* NestsStylePattern_0_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsStylePattern_0_TableViewCell.m; sourceTree = "<group>"; };
+		DACA1CBF1C0AA85D00F1EF1D /* NestsStylePattern_0_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsStylePattern_0_TableViewCell.xib; sourceTree = "<group>"; };
+		DACA1CC21C0AB26700F1EF1D /* NestsStylePattern_1_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsStylePattern_1_TableViewCell.h; sourceTree = "<group>"; };
+		DACA1CC31C0AB26700F1EF1D /* NestsStylePattern_1_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsStylePattern_1_TableViewCell.m; sourceTree = "<group>"; };
+		DACA1CC41C0AB26700F1EF1D /* NestsStylePattern_1_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsStylePattern_1_TableViewCell.xib; sourceTree = "<group>"; };
+		DACA1CC71C0ABB6D00F1EF1D /* NestsStylePattern_2_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsStylePattern_2_TableViewCell.h; sourceTree = "<group>"; };
+		DACA1CC81C0ABB6D00F1EF1D /* NestsStylePattern_2_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsStylePattern_2_TableViewCell.m; sourceTree = "<group>"; };
+		DACA1CC91C0ABB6D00F1EF1D /* NestsStylePattern_2_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsStylePattern_2_TableViewCell.xib; sourceTree = "<group>"; };
+		DACA1CCD1C0AE04300F1EF1D /* NestsMMScrollPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsMMScrollPage.h; sourceTree = "<group>"; };
+		DACA1CCE1C0AE04300F1EF1D /* NestsMMScrollPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsMMScrollPage.m; sourceTree = "<group>"; };
+		DACA1CCF1C0AE04300F1EF1D /* NestsMMScrollPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsMMScrollPresenter.h; sourceTree = "<group>"; };
+		DACA1CD01C0AE04300F1EF1D /* NestsMMScrollPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsMMScrollPresenter.m; sourceTree = "<group>"; };
+		DACFB8D21C00B8C500E199A2 /* NestsStyleSubtitle_0_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsStyleSubtitle_0_TableViewCell.h; sourceTree = "<group>"; };
+		DACFB8D31C00B8C500E199A2 /* NestsStyleSubtitle_0_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsStyleSubtitle_0_TableViewCell.m; sourceTree = "<group>"; };
+		DACFB8D41C00B8C500E199A2 /* NestsStyleSubtitle_0_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsStyleSubtitle_0_TableViewCell.xib; sourceTree = "<group>"; };
+		DACFB8D71C00BB7300E199A2 /* CornerEvaluateInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerEvaluateInfoData.h; sourceTree = "<group>"; };
+		DACFB8D81C00BB7300E199A2 /* CornerEvaluateInfoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerEvaluateInfoData.m; sourceTree = "<group>"; };
+		DACFB8DA1C00BBA000E199A2 /* CornerEvaluateInfoData+Operation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CornerEvaluateInfoData+Operation.h"; sourceTree = "<group>"; };
+		DACFB8DB1C00BBA000E199A2 /* CornerEvaluateInfoData+Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CornerEvaluateInfoData+Operation.m"; sourceTree = "<group>"; };
+		DACFB8DD1C015EEA00E199A2 /* NestsStyleSubtitle_0_0_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsStyleSubtitle_0_0_TableViewCell.xib; sourceTree = "<group>"; };
+		DACFB8DF1C016EAE00E199A2 /* NestsEvaluateBIZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsEvaluateBIZViewController.h; sourceTree = "<group>"; };
+		DACFB8E01C016EAE00E199A2 /* NestsEvaluateBIZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsEvaluateBIZViewController.m; sourceTree = "<group>"; };
+		DACFB8E21C01733A00E199A2 /* NestsStyleEvalue_0_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsStyleEvalue_0_TableViewCell.h; sourceTree = "<group>"; };
+		DACFB8E31C01733A00E199A2 /* NestsStyleEvalue_0_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsStyleEvalue_0_TableViewCell.m; sourceTree = "<group>"; };
+		DACFB8E41C01733A00E199A2 /* NestsStyleEvalue_0_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsStyleEvalue_0_TableViewCell.xib; sourceTree = "<group>"; };
+		DACFB8E81C01787E00E199A2 /* StarRatingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRatingDelegate.h; sourceTree = "<group>"; };
+		DACFB8E91C0182A400E199A2 /* NestsStyleEvalue_1_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsStyleEvalue_1_TableViewCell.h; sourceTree = "<group>"; };
+		DACFB8EA1C0182A400E199A2 /* NestsStyleEvalue_1_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsStyleEvalue_1_TableViewCell.m; sourceTree = "<group>"; };
+		DACFB8EB1C0182A400E199A2 /* NestsStyleEvalue_1_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsStyleEvalue_1_TableViewCell.xib; sourceTree = "<group>"; };
+		DAD8E1711C3E7FA300FAB5F5 /* WebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		DAD8E1721C3E7FA300FAB5F5 /* WebViewJavascriptBridge.js.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WebViewJavascriptBridge.js.txt; sourceTree = "<group>"; };
+		DAD8E1731C3E7FA300FAB5F5 /* WebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		DAD8E1741C3E7FA300FAB5F5 /* WebViewJavascriptBridgeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewJavascriptBridgeBase.h; sourceTree = "<group>"; };
+		DAD8E1751C3E7FA300FAB5F5 /* WebViewJavascriptBridgeBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewJavascriptBridgeBase.m; sourceTree = "<group>"; };
+		DAD8E1761C3E7FA300FAB5F5 /* WKWebViewJavascriptBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewJavascriptBridge.h; sourceTree = "<group>"; };
+		DAD8E1771C3E7FA300FAB5F5 /* WKWebViewJavascriptBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewJavascriptBridge.m; sourceTree = "<group>"; };
+		DAD8E1801C3E824B00FAB5F5 /* NestsWebViewLibrary.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = NestsWebViewLibrary.js; sourceTree = "<group>"; };
+		DAD8E1811C3E824B00FAB5F5 /* NestsWebView.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NestsWebView.html; sourceTree = "<group>"; };
+		DAD8E1841C3E829C00FAB5F5 /* NestsWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsWebViewController.m; sourceTree = "<group>"; };
+		DAD8E1851C3E829C00FAB5F5 /* NestsWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsWebViewController.h; sourceTree = "<group>"; };
+		DAD8E1871C3E82AC00FAB5F5 /* NestsMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsMessageViewController.h; sourceTree = "<group>"; };
+		DAD8E1881C3E82AC00FAB5F5 /* NestsMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsMessageViewController.m; sourceTree = "<group>"; };
+		DAD8E18A1C3E863000FAB5F5 /* ExampleApp.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ExampleApp.html; sourceTree = "<group>"; };
+		DAE9D40C1BA7153300E7E2B3 /* UITextView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Helper.h"; sourceTree = "<group>"; };
+		DAE9D40D1BA7153300E7E2B3 /* UITextView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Helper.m"; sourceTree = "<group>"; };
+		DAEA03BA1C2A355B00F69850 /* NestsOffLine_1_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsOffLine_1_TableViewCell.h; sourceTree = "<group>"; };
+		DAEA03BB1C2A355B00F69850 /* NestsOffLine_1_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsOffLine_1_TableViewCell.m; sourceTree = "<group>"; };
+		DAEA03BC1C2A355B00F69850 /* NestsOffLine_1_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsOffLine_1_TableViewCell.xib; sourceTree = "<group>"; };
+		DAEA03BF1C2A42CC00F69850 /* MAHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAHeaderView.h; sourceTree = "<group>"; };
+		DAEA03C01C2A42CC00F69850 /* MAHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAHeaderView.m; sourceTree = "<group>"; };
+		DAFE085B1C2A0871005B38AB /* NestsOfflineDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsOfflineDetailViewController.h; sourceTree = "<group>"; };
+		DAFE085C1C2A0871005B38AB /* NestsOfflineDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsOfflineDetailViewController.m; sourceTree = "<group>"; };
+		DAFE085E1C2A0B7E005B38AB /* NestsOffLine_0_TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestsOffLine_0_TableViewCell.h; sourceTree = "<group>"; };
+		DAFE085F1C2A0B7E005B38AB /* NestsOffLine_0_TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestsOffLine_0_TableViewCell.m; sourceTree = "<group>"; };
+		DAFE08601C2A0B7E005B38AB /* NestsOffLine_0_TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NestsOffLine_0_TableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA5F00421AF5C74800CEDCC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB57FC0D1636588B30CCF8D6 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5F005B1AF5C74800CEDCC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B83E11946839227624C435B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				301D4BA696681EE0DE7A03B7 /* Pods.debug.xcconfig */,
+				9DF52D01B94B9728EC17E217 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA04B1981BEF2F3D00B1EFC7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DA04B1991BEF2FBD00B1EFC7 /* NestsStyleSubtitleTableViewCell.h */,
+				DA04B19A1BEF2FBD00B1EFC7 /* NestsStyleSubtitleTableViewCell.m */,
+				DA04B19B1BEF2FBD00B1EFC7 /* NestsStyleSubtitleTableViewCell.xib */,
+				DACFB8D21C00B8C500E199A2 /* NestsStyleSubtitle_0_TableViewCell.h */,
+				DACFB8D31C00B8C500E199A2 /* NestsStyleSubtitle_0_TableViewCell.m */,
+				DACFB8D41C00B8C500E199A2 /* NestsStyleSubtitle_0_TableViewCell.xib */,
+				DACFB8DD1C015EEA00E199A2 /* NestsStyleSubtitle_0_0_TableViewCell.xib */,
+				DAB8E5681BF0D2A500E582F2 /* NestsStyleImageTableViewCell.h */,
+				DAB8E5691BF0D2A500E582F2 /* NestsStyleImageTableViewCell.m */,
+				DAB8E56A1BF0D2A500E582F2 /* NestsStyleImageTableViewCell.xib */,
+				DAB8E56D1BF0D48600E582F2 /* NestsStyleText_0_TableViewCell.h */,
+				DAB8E56E1BF0D48600E582F2 /* NestsStyleText_0_TableViewCell.m */,
+				DAB8E56F1BF0D48600E582F2 /* NestsStyleText_0_TableViewCell.xib */,
+				DA1619921BFB7A2800FC4C1F /* NestsStyleText_1_TableViewCell.h */,
+				DA1619931BFB7A2800FC4C1F /* NestsStyleText_1_TableViewCell.m */,
+				DA1619941BFB7A2800FC4C1F /* NestsStyleText_1_TableViewCell.xib */,
+				DA0B4F1D1BF8163200D9E0AC /* NestsStyleBtn_0_TableViewCell.h */,
+				DA0B4F1E1BF8163200D9E0AC /* NestsStyleBtn_0_TableViewCell.m */,
+				DA0B4F1F1BF8163200D9E0AC /* NestsStyleBtn_0_TableViewCell.xib */,
+				DA0B4F0A1BF7F15100D9E0AC /* NestsStyleTextField_0_TableViewCell.h */,
+				DA0B4F0B1BF7F15100D9E0AC /* NestsStyleTextField_0_TableViewCell.m */,
+				DA0B4F0C1BF7F15100D9E0AC /* NestsStyleTextField_0_TableViewCell.xib */,
+				DA0B4F151BF804B300D9E0AC /* NestsStyleTextField_1_TableViewCell.h */,
+				DA0B4F161BF804B300D9E0AC /* NestsStyleTextField_1_TableViewCell.m */,
+				DA0B4F171BF804B300D9E0AC /* NestsStyleTextField_1_TableViewCell.xib */,
+				DA0B4F251BF8416200D9E0AC /* NestsStyleTextField_2_TableViewCell.h */,
+				DA0B4F261BF8416200D9E0AC /* NestsStyleTextField_2_TableViewCell.m */,
+				DA0B4F271BF8416200D9E0AC /* NestsStyleTextField_2_TableViewCell.xib */,
+				DACFB8E21C01733A00E199A2 /* NestsStyleEvalue_0_TableViewCell.h */,
+				DACFB8E31C01733A00E199A2 /* NestsStyleEvalue_0_TableViewCell.m */,
+				DACFB8E41C01733A00E199A2 /* NestsStyleEvalue_0_TableViewCell.xib */,
+				DACFB8E91C0182A400E199A2 /* NestsStyleEvalue_1_TableViewCell.h */,
+				DACFB8EA1C0182A400E199A2 /* NestsStyleEvalue_1_TableViewCell.m */,
+				DACFB8EB1C0182A400E199A2 /* NestsStyleEvalue_1_TableViewCell.xib */,
+				DA4BE8DF1C0A096100645311 /* NestsParallax_0_TableViewCell.h */,
+				DA4BE8E01C0A096100645311 /* NestsParallax_0_TableViewCell.m */,
+				DA4BE8E11C0A096100645311 /* NestsParallax_0_TableViewCell.xib */,
+				DACA1CB21C0A8E5600F1EF1D /* NestsParallax_1_TableViewCell.h */,
+				DACA1CB31C0A8E5600F1EF1D /* NestsParallax_1_TableViewCell.m */,
+				DACA1CB41C0A8E5600F1EF1D /* NestsParallax_1_TableViewCell.xib */,
+				DACA1CBD1C0AA85D00F1EF1D /* NestsStylePattern_0_TableViewCell.h */,
+				DACA1CBE1C0AA85D00F1EF1D /* NestsStylePattern_0_TableViewCell.m */,
+				DACA1CBF1C0AA85D00F1EF1D /* NestsStylePattern_0_TableViewCell.xib */,
+				DACA1CC21C0AB26700F1EF1D /* NestsStylePattern_1_TableViewCell.h */,
+				DACA1CC31C0AB26700F1EF1D /* NestsStylePattern_1_TableViewCell.m */,
+				DACA1CC41C0AB26700F1EF1D /* NestsStylePattern_1_TableViewCell.xib */,
+				DACA1CC71C0ABB6D00F1EF1D /* NestsStylePattern_2_TableViewCell.h */,
+				DACA1CC81C0ABB6D00F1EF1D /* NestsStylePattern_2_TableViewCell.m */,
+				DACA1CC91C0ABB6D00F1EF1D /* NestsStylePattern_2_TableViewCell.xib */,
+				DAB805471C13E1280020A1D8 /* NestsQRTableViewCell.h */,
+				DAB805481C13E1280020A1D8 /* NestsQRTableViewCell.m */,
+				DAB805491C13E1280020A1D8 /* NestsQRTableViewCell.xib */,
+				DAFE085E1C2A0B7E005B38AB /* NestsOffLine_0_TableViewCell.h */,
+				DAFE085F1C2A0B7E005B38AB /* NestsOffLine_0_TableViewCell.m */,
+				DAFE08601C2A0B7E005B38AB /* NestsOffLine_0_TableViewCell.xib */,
+				DAEA03BA1C2A355B00F69850 /* NestsOffLine_1_TableViewCell.h */,
+				DAEA03BB1C2A355B00F69850 /* NestsOffLine_1_TableViewCell.m */,
+				DAEA03BC1C2A355B00F69850 /* NestsOffLine_1_TableViewCell.xib */,
+				DA8642311C30057900DB07BD /* NestsShopingAppraiseTableViewCell.h */,
+				DA8642321C30057900DB07BD /* NestsShopingAppraiseTableViewCell.m */,
+				DA8642331C30057A00DB07BD /* NestsShopingAppraiseTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		DA0A70271C02A47A00A8B3BA /* CQ_ASIHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				DA0A70281C02A47A00A8B3BA /* CQAnalyticDataInfo.h */,
+				DA0A70291C02A47A00A8B3BA /* CQAnalyticDataInfo.m */,
+				DA0A702A1C02A47A00A8B3BA /* CQASIHttpClient.h */,
+				DA0A702B1C02A47A00A8B3BA /* CQASIHttpClient.m */,
+				DA0A702C1C02A47A00A8B3BA /* CQASIHTTPRequestAttribute.h */,
+				DA0A702D1C02A47A00A8B3BA /* CQASIHTTPRequestAttribute.m */,
+				DA0A702E1C02A47A00A8B3BA /* CQASIHTTPRequestHTTPClient.h */,
+				DA0A702F1C02A47A00A8B3BA /* CQASIHTTPRequestHTTPClient.m */,
+				DA0A70301C02A47A00A8B3BA /* CQHttpClient.h */,
+				DA0A70311C02A47A00A8B3BA /* CQHttpClient.m */,
+				DA0A70321C02A47A00A8B3BA /* CQNetworkConfigs.h */,
+				DA0A70331C02A47A00A8B3BA /* CQNetworkProgressView.h */,
+				DA0A70341C02A47A00A8B3BA /* CQNetworkProgressView.m */,
+			);
+			path = CQ_ASIHTTPRequest;
+			sourceTree = "<group>";
+		};
+		DA0C49C61BA3F49D00889688 /* NestsResideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DA4094611BAD48A400A4E6F1 /* NestsResideMenuModel */,
+				DA0C49C71BA3F4CD00889688 /* NestsResideMenuFirstViewController.h */,
+				DA0C49C81BA3F4CD00889688 /* NestsResideMenuFirstViewController.m */,
+				DA0C49C91BA3F4CD00889688 /* NestsResideMenuSecondViewController.h */,
+				DA0C49CA1BA3F4CD00889688 /* NestsResideMenuSecondViewController.m */,
+				DA0C49CB1BA3F4CD00889688 /* NestsResideMenuLeftMenuViewController.h */,
+				DA0C49CC1BA3F4CD00889688 /* NestsResideMenuLeftMenuViewController.m */,
+				DA0C49CD1BA3F4CD00889688 /* NestsResideMenuRightMenuViewController.h */,
+				DA0C49CE1BA3F4CD00889688 /* NestsResideMenuRightMenuViewController.m */,
+			);
+			path = NestsResideMenu;
+			sourceTree = "<group>";
+		};
+		DA12F1F71BADBF3500A5C8C4 /* MAMAP */ = {
+			isa = PBXGroup;
+			children = (
+				DA12F1F81BADBF8C00A5C8C4 /* MACalloutView.h */,
+				DA12F1F91BADBF8C00A5C8C4 /* MACalloutView.m */,
+				DA12F1FB1BADC0AA00A5C8C4 /* MAForAnnotationView.h */,
+				DA12F1FC1BADC0AA00A5C8C4 /* MAForAnnotationView.m */,
+				DA6C2D191C1C7A2D00CB329F /* NestsAMapKit.h */,
+				DA6C2D1A1C1C7A2D00CB329F /* NestsAMapKit.m */,
+			);
+			path = MAMAP;
+			sourceTree = "<group>";
+		};
+		DA4094611BAD48A400A4E6F1 /* NestsResideMenuModel */ = {
+			isa = PBXGroup;
+			children = (
+				DA4094621BAD491400A4E6F1 /* CornerNestsResideMenuInfoData.h */,
+				DA4094631BAD491400A4E6F1 /* CornerNestsResideMenuInfoData.m */,
+				DA4094651BAD495A00A4E6F1 /* CornerNestsResideMenuInfoData+Operation.h */,
+				DA4094661BAD495A00A4E6F1 /* CornerNestsResideMenuInfoData+Operation.m */,
+			);
+			path = NestsResideMenuModel;
+			sourceTree = "<group>";
+		};
+		DA5F003C1AF5C74800CEDCC5 = {
+			isa = PBXGroup;
+			children = (
+				DA5F00471AF5C74800CEDCC5 /* Nests */,
+				DA5F00611AF5C74800CEDCC5 /* NestsTests */,
+				DA5F00461AF5C74800CEDCC5 /* Products */,
+				DA5F007A1AF5C9E400CEDCC5 /* Frameworks */,
+				B83E11946839227624C435B9 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DA5F00461AF5C74800CEDCC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F00451AF5C74800CEDCC5 /* Nests.app */,
+				DA5F005E1AF5C74800CEDCC5 /* NestsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA5F00471AF5C74800CEDCC5 /* Nests */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F004C1AF5C74800CEDCC5 /* AppDelegate.h */,
+				DA5F004D1AF5C74800CEDCC5 /* AppDelegate.m */,
+				DA12F1F71BADBF3500A5C8C4 /* MAMAP */,
+				DA5F006E1AF5C7C300CEDCC5 /* Configs */,
+				DA5F00711AF5C84F00CEDCC5 /* Controller */,
+				DA5F006F1AF5C7E000CEDCC5 /* View */,
+				DA5F00701AF5C7F500CEDCC5 /* Model */,
+				DA5F00731AF5C8B400CEDCC5 /* LibraryAPI */,
+				DA5F00721AF5C89C00CEDCC5 /* Network */,
+				DA5F00741AF5C8CE00CEDCC5 /* Vendors */,
+				DA5F00751AF5C90900CEDCC5 /* Resources */,
+				DA5F007B1AF5CAAA00CEDCC5 /* Others */,
+				DA5F004F1AF5C74800CEDCC5 /* ViewController.h */,
+				DA5F00501AF5C74800CEDCC5 /* ViewController.m */,
+				DA5F00551AF5C74800CEDCC5 /* Images.xcassets */,
+				DA5F00481AF5C74800CEDCC5 /* Supporting Files */,
+			);
+			path = Nests;
+			sourceTree = "<group>";
+		};
+		DA5F00481AF5C74800CEDCC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA6592C21C3CB18C005E8F4D /* WebViewResources */,
+				DA12F1FE1BADC59000A5C8C4 /* Nests.entitlements */,
+				DA5F00491AF5C74800CEDCC5 /* Info.plist */,
+				DA5F004A1AF5C74800CEDCC5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA5F00611AF5C74800CEDCC5 /* NestsTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F00641AF5C74800CEDCC5 /* NestsTests.m */,
+				DA5F00621AF5C74800CEDCC5 /* Supporting Files */,
+			);
+			path = NestsTests;
+			sourceTree = "<group>";
+		};
+		DA5F00621AF5C74800CEDCC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F00631AF5C74800CEDCC5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA5F006E1AF5C7C300CEDCC5 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F007C1AF5DC6F00CEDCC5 /* NestsHelper.h */,
+				DA5F007D1AF5DC6F00CEDCC5 /* NestsHelper.m */,
+				DA5F007F1AF5DCA800CEDCC5 /* NestsConfig.h */,
+				DA5F00801AF5DD6200CEDCC5 /* Nests-Prefix.pch */,
+				DA5F00BE1AF64D8500CEDCC5 /* NestsBaseConfig.h */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		DA5F006F1AF5C7E000CEDCC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA04B1981BEF2F3D00B1EFC7 /* Cell */,
+				DA16198D1BFB6A9400FC4C1F /* NestsSelectPlan.h */,
+				DA16198E1BFB6A9400FC4C1F /* NestsSelectPlan.m */,
+				DA1619901BFB6AAC00FC4C1F /* NestsSelectPlan.xib */,
+				DAB805341C13AFBE0020A1D8 /* NestsBoardView.h */,
+				DAB805351C13AFBE0020A1D8 /* NestsBoardView.m */,
+				DAB805371C13AFD90020A1D8 /* NestsBoardView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA5F00701AF5C7F500CEDCC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DACFB8E71C01776000E199A2 /* Protocol */,
+				DAAF22481BA506E000B8EBFD /* CornerSettingInfoData.h */,
+				DAAF22491BA506E000B8EBFD /* CornerSettingInfoData.m */,
+				DAAF224B1BA5075A00B8EBFD /* CornerSettingInfoData+Operation.h */,
+				DAAF224C1BA5075A00B8EBFD /* CornerSettingInfoData+Operation.m */,
+				DA0CCF961C75301000396E53 /* CornerShopingAppraiseInfoData.h */,
+				DA0CCF971C75301000396E53 /* CornerShopingAppraiseInfoData.m */,
+				DA0CCF9C1C75309200396E53 /* CornerShopingAppraiseInfoData+Operation.h */,
+				DA0CCF9D1C75309200396E53 /* CornerShopingAppraiseInfoData+Operation.m */,
+				DACFB8D71C00BB7300E199A2 /* CornerEvaluateInfoData.h */,
+				DACFB8D81C00BB7300E199A2 /* CornerEvaluateInfoData.m */,
+				DACFB8DA1C00BBA000E199A2 /* CornerEvaluateInfoData+Operation.h */,
+				DACFB8DB1C00BBA000E199A2 /* CornerEvaluateInfoData+Operation.m */,
+				DACA1CB71C0A91FD00F1EF1D /* CornerParallaxInfoData.h */,
+				DACA1CB81C0A91FD00F1EF1D /* CornerParallaxInfoData.m */,
+				DACA1CBA1C0A922300F1EF1D /* CornerParallaxInfoData+Operation.h */,
+				DACA1CBB1C0A922300F1EF1D /* CornerParallaxInfoData+Operation.m */,
+				DAAF22521BA59C5E00B8EBFD /* CornerMessagesInfoData.h */,
+				DAAF22531BA59C5E00B8EBFD /* CornerMessagesInfoData.m */,
+				DAAF22551BA59C7A00B8EBFD /* CornerMessagesInfoData+Operation.h */,
+				DAAF22561BA59C7A00B8EBFD /* CornerMessagesInfoData+Operation.m */,
+				DA04B1A11BEF39E200B1EFC7 /* CornerHomeInfoData.h */,
+				DA04B1A21BEF39E200B1EFC7 /* CornerHomeInfoData.m */,
+				DA04B1A41BEF39F700B1EFC7 /* CornerHomeInfoData+Operation.h */,
+				DA04B1A51BEF39F700B1EFC7 /* CornerHomeInfoData+Operation.m */,
+				DAB8E5721BF0D8C400E582F2 /* CornerPersonInfoData.h */,
+				DAB8E5731BF0D8C400E582F2 /* CornerPersonInfoData.m */,
+				DAB8E5751BF0D8E400E582F2 /* CornerPersonInfoData+Operation.h */,
+				DAB8E5761BF0D8E400E582F2 /* CornerPersonInfoData+Operation.m */,
+				DA1619971BFB7E2200FC4C1F /* CornerScoreInfoData.h */,
+				DA1619981BFB7E2200FC4C1F /* CornerScoreInfoData.m */,
+				DA16199A1BFB7E3F00FC4C1F /* CornerScoreInfoData+Operation.h */,
+				DA16199B1BFB7E3F00FC4C1F /* CornerScoreInfoData+Operation.m */,
+				DAB8054C1C13E5210020A1D8 /* CornerQCInfoData.h */,
+				DAB8054D1C13E5210020A1D8 /* CornerQCInfoData.m */,
+				DAB8054F1C13E5440020A1D8 /* CornerQCInfoData+Operation.h */,
+				DAB805501C13E5440020A1D8 /* CornerQCInfoData+Operation.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA5F00711AF5C84F00CEDCC5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DAD8E1871C3E82AC00FAB5F5 /* NestsMessageViewController.h */,
+				DAD8E1881C3E82AC00FAB5F5 /* NestsMessageViewController.m */,
+				DAD8E17C1C3E820000FAB5F5 /* NestsWebView */,
+				DA0C49C61BA3F49D00889688 /* NestsResideMenu */,
+				DA5F00A11AF5FD7300CEDCC5 /* NestsSceneDispatch.h */,
+				DA5F00A21AF5FD7300CEDCC5 /* NestsSceneDispatch.m */,
+				DA5F00A71AF6020000CEDCC5 /* NestsBaseViewController.h */,
+				DA5F00A81AF6020000CEDCC5 /* NestsBaseViewController.m */,
+				DA0B4F071BF7E5A000D9E0AC /* NestsBaseViewController+Helper.h */,
+				DA55F5EB1C8A7DCE009B5D02 /* NestsAppInfoViewController.xib */,
+				DA55F5EC1C8A7DCE009B5D02 /* NestsAppInfoViewController.h */,
+				DA55F5ED1C8A7DCE009B5D02 /* NestsAppInfoViewController.m */,
+				DA0B4F081BF7E5A000D9E0AC /* NestsBaseViewController+Helper.m */,
+				DA5F00AA1AF6022300CEDCC5 /* NestsRootViewController.h */,
+				DA5F00AB1AF6022300CEDCC5 /* NestsRootViewController.m */,
+				DAC6271E1BA4648C00EFF3B8 /* NestsHomeViewController.h */,
+				DAC6271F1BA4648C00EFF3B8 /* NestsHomeViewController.m */,
+				DAB805421C13D1F10020A1D8 /* NestsBoardViewController.h */,
+				DAB805431C13D1F10020A1D8 /* NestsBoardViewController.m */,
+				DAB805441C13D1F10020A1D8 /* NestsBoardViewController.xib */,
+				DAB8053C1C13C2E10020A1D8 /* NestsMapViewController.h */,
+				DAB8053D1C13C2E10020A1D8 /* NestsMapViewController.m */,
+				DAB805391C13C2CF0020A1D8 /* NestsListViewController.h */,
+				DAB8053A1C13C2CF0020A1D8 /* NestsListViewController.m */,
+				DA4BE8D01C099F0E00645311 /* NestsParallaxViewController.h */,
+				DA4BE8D11C099F0E00645311 /* NestsParallaxViewController.m */,
+				DA0B4F221BF8235000D9E0AC /* NestsLoginViewController.h */,
+				DA0B4F231BF8235000D9E0AC /* NestsLoginViewController.m */,
+				DABA13AE1BF8C7C3005762E2 /* NestsScoreViewController.h */,
+				DABA13AF1BF8C7C3005762E2 /* NestsScoreViewController.m */,
+				DAC627211BA4712100EFF3B8 /* NestsSettingViewController.h */,
+				DAC627221BA4712100EFF3B8 /* NestsSettingViewController.m */,
+				DAC627271BA471E200EFF3B8 /* NestsEvaluateViewController.h */,
+				DAC627281BA471E200EFF3B8 /* NestsEvaluateViewController.m */,
+				DACFB8DF1C016EAE00E199A2 /* NestsEvaluateBIZViewController.h */,
+				DACFB8E01C016EAE00E199A2 /* NestsEvaluateBIZViewController.m */,
+				DA0CCF931C75204F00396E53 /* NestsEvaluateDetailViewController.h */,
+				DA0CCF941C75204F00396E53 /* NestsEvaluateDetailViewController.m */,
+				DAB8E5651BF0D0FC00E582F2 /* NestsPersonInfoViewController.h */,
+				DAB8E5661BF0D0FC00E582F2 /* NestsPersonInfoViewController.m */,
+				DA0B4F041BF7DF4900D9E0AC /* NestsPersonInfoEditViewController.h */,
+				DA0B4F051BF7DF4900D9E0AC /* NestsPersonInfoEditViewController.m */,
+				DA0B4F1A1BF8124B00D9E0AC /* NestsPersonInfoPhoneViewController.h */,
+				DA0B4F1B1BF8124B00D9E0AC /* NestsPersonInfoPhoneViewController.m */,
+				DA0B4F121BF7FD4900D9E0AC /* NestsPersonInfoEditNameViewController.h */,
+				DA0B4F131BF7FD4900D9E0AC /* NestsPersonInfoEditNameViewController.m */,
+				DA25A4521C13036900D8E131 /* NestsQRViewController.h */,
+				DA25A4531C13036900D8E131 /* NestsQRViewController.m */,
+				DAFE085B1C2A0871005B38AB /* NestsOfflineDetailViewController.h */,
+				DAFE085C1C2A0871005B38AB /* NestsOfflineDetailViewController.m */,
+				DAEA03BF1C2A42CC00F69850 /* MAHeaderView.h */,
+				DAEA03C01C2A42CC00F69850 /* MAHeaderView.m */,
+				DABA48171C2ED14400936F49 /* NestsAreaViewController.h */,
+				DABA48181C2ED14400936F49 /* NestsAreaViewController.m */,
+				DA86422E1C30019800DB07BD /* NestsShopingAppraiseViewController.h */,
+				DA86422F1C30019800DB07BD /* NestsShopingAppraiseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA5F00721AF5C89C00CEDCC5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DA0A70201C02A42A00A8B3BA /* ASIHTTPClicent.h */,
+				DA0A70211C02A42A00A8B3BA /* ASIHTTPClicent.m */,
+				DA0A70221C02A42A00A8B3BA /* NetworkConfigs.h */,
+				DA0A70231C02A42A00A8B3BA /* NetworkHelper.h */,
+				DA0A70241C02A42A00A8B3BA /* NetworkHelper.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DA5F00731AF5C8B400CEDCC5 /* LibraryAPI */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F009E1AF5FC9100CEDCC5 /* LibraryAPI.h */,
+				DA5F009F1AF5FC9100CEDCC5 /* LibraryAPI.m */,
+			);
+			path = LibraryAPI;
+			sourceTree = "<group>";
+		};
+		DA5F00741AF5C8CE00CEDCC5 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				DAD8E1701C3E7FA300FAB5F5 /* WebViewJavascriptBridge */,
+				DACA1CCC1C0ADFFC00F1EF1D /* MMScrollPresenter */,
+				DA0A70271C02A47A00A8B3BA /* CQ_ASIHTTPRequest */,
+				DAAF224E1BA5917400B8EBFD /* SQLlite */,
+				DA5F00B81AF6450800CEDCC5 /* UDID_Tools */,
+				DA5F00851AF5E23B00CEDCC5 /* Helper */,
+				DA5F00811AF5E1C700CEDCC5 /* Kit */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		DA5F00751AF5C90900CEDCC5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F00781AF5C95C00CEDCC5 /* Fonts */,
+				DA5F00771AF5C94E00CEDCC5 /* Images */,
+				DA5F00761AF5C93C00CEDCC5 /* Localizable */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DA5F00761AF5C93C00CEDCC5 /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F00B11AF6080100CEDCC5 /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
+		DA5F00771AF5C94E00CEDCC5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DA5F00781AF5C95C00CEDCC5 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F00B41AF60BDB00CEDCC5 /* birthday.ttf */,
+				DA5F00B51AF60BDB00CEDCC5 /* digital-7.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DA5F007A1AF5C9E400CEDCC5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E2BAC16B94D6DC428CAEE79 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA5F007B1AF5CAAA00CEDCC5 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				DA86422C1C2FF8E500DB07BD /* score_str.txt */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		DA5F00811AF5E1C700CEDCC5 /* Kit */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F00821AF5E20A00CEDCC5 /* NestsKit.h */,
+				DA5F00831AF5E20A00CEDCC5 /* NestsKit.m */,
+			);
+			path = Kit;
+			sourceTree = "<group>";
+		};
+		DA5F00851AF5E23B00CEDCC5 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DA4108581C2E3FEE001A40D6 /* NestsCountButton.h */,
+				DA4108591C2E3FEE001A40D6 /* NestsCountButton.m */,
+				DA5F00861AF5E26C00CEDCC5 /* NSString+Helper.h */,
+				DA5F00871AF5E26C00CEDCC5 /* NSString+Helper.m */,
+				DA5F00891AF5E28600CEDCC5 /* UIImage+Helper.h */,
+				DA5F008A1AF5E28600CEDCC5 /* UIImage+Helper.m */,
+				DA5F008C1AF5E29F00CEDCC5 /* NSObject+Helper.h */,
+				DA5F008D1AF5E29F00CEDCC5 /* NSObject+Helper.m */,
+				DA5F008F1AF5E2B600CEDCC5 /* UIView+Helper.h */,
+				DA5F00901AF5E2B600CEDCC5 /* UIView+Helper.m */,
+				DA5F00921AF5E2E000CEDCC5 /* NSMutableDictionary+Helper.h */,
+				DA5F00931AF5E2E000CEDCC5 /* NSMutableDictionary+Helper.m */,
+				DA5F00951AF5E40B00CEDCC5 /* UIImageView+Helper.h */,
+				DA5F00961AF5E40B00CEDCC5 /* UIImageView+Helper.m */,
+				DA5F00981AF5EC9000CEDCC5 /* NSData+Helper.h */,
+				DA5F00991AF5EC9000CEDCC5 /* NSData+Helper.m */,
+				DA5F009B1AF5ED0F00CEDCC5 /* NSDate+Helper.h */,
+				DA5F009C1AF5ED0F00CEDCC5 /* NSDate+Helper.m */,
+				DAE9D40C1BA7153300E7E2B3 /* UITextView+Helper.h */,
+				DAE9D40D1BA7153300E7E2B3 /* UITextView+Helper.m */,
+				DA0B4F0F1BF7FC1600D9E0AC /* UIViewController+Helper.h */,
+				DA0B4F101BF7FC1600D9E0AC /* UIViewController+Helper.m */,
+				DA4BE8D61C09F94700645311 /* UIImage+ImageEffects.h */,
+				DA4BE8D71C09F94700645311 /* UIImage+ImageEffects.m */,
+				DA4BE8D91C09F95E00645311 /* NestsParallaxHeaderView.h */,
+				DA4BE8DA1C09F95E00645311 /* NestsParallaxHeaderView.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DA5F00B81AF6450800CEDCC5 /* UDID_Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DA5F00B91AF6450800CEDCC5 /* SvUDIDTools.h */,
+				DA5F00BA1AF6450800CEDCC5 /* SvUDIDTools.m */,
+			);
+			path = UDID_Tools;
+			sourceTree = "<group>";
+		};
+		DA6592C21C3CB18C005E8F4D /* WebViewResources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebViewResources;
+			sourceTree = "<group>";
+		};
+		DAAF224E1BA5917400B8EBFD /* SQLlite */ = {
+			isa = PBXGroup;
+			children = (
+				DAAF224F1BA5920300B8EBFD /* NestsSQLite.h */,
+				DAAF22501BA5920300B8EBFD /* NestsSQLite.m */,
+			);
+			path = SQLlite;
+			sourceTree = "<group>";
+		};
+		DACA1CCC1C0ADFFC00F1EF1D /* MMScrollPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				DACA1CCD1C0AE04300F1EF1D /* NestsMMScrollPage.h */,
+				DACA1CCE1C0AE04300F1EF1D /* NestsMMScrollPage.m */,
+				DACA1CCF1C0AE04300F1EF1D /* NestsMMScrollPresenter.h */,
+				DACA1CD01C0AE04300F1EF1D /* NestsMMScrollPresenter.m */,
+			);
+			path = MMScrollPresenter;
+			sourceTree = "<group>";
+		};
+		DACFB8E71C01776000E199A2 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				DACFB8E81C01787E00E199A2 /* StarRatingDelegate.h */,
+				DA25A4511C129CFE00D8E131 /* TextFieldCellDelegate.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		DAD8E1701C3E7FA300FAB5F5 /* WebViewJavascriptBridge */ = {
+			isa = PBXGroup;
+			children = (
+				DAD8E1711C3E7FA300FAB5F5 /* WebViewJavascriptBridge.h */,
+				DAD8E1721C3E7FA300FAB5F5 /* WebViewJavascriptBridge.js.txt */,
+				DAD8E1731C3E7FA300FAB5F5 /* WebViewJavascriptBridge.m */,
+				DAD8E1741C3E7FA300FAB5F5 /* WebViewJavascriptBridgeBase.h */,
+				DAD8E1751C3E7FA300FAB5F5 /* WebViewJavascriptBridgeBase.m */,
+				DAD8E1761C3E7FA300FAB5F5 /* WKWebViewJavascriptBridge.h */,
+				DAD8E1771C3E7FA300FAB5F5 /* WKWebViewJavascriptBridge.m */,
+			);
+			path = WebViewJavascriptBridge;
+			sourceTree = "<group>";
+		};
+		DAD8E17C1C3E820000FAB5F5 /* NestsWebView */ = {
+			isa = PBXGroup;
+			children = (
+				DA847DA31C42095600DDFA2E /* NestsError.png */,
+				DA847DA41C42095600DDFA2E /* NestsWebViewError.html */,
+				DAD8E1841C3E829C00FAB5F5 /* NestsWebViewController.m */,
+				DAD8E1851C3E829C00FAB5F5 /* NestsWebViewController.h */,
+				DAD8E1801C3E824B00FAB5F5 /* NestsWebViewLibrary.js */,
+				DAD8E18A1C3E863000FAB5F5 /* ExampleApp.html */,
+				DAD8E1811C3E824B00FAB5F5 /* NestsWebView.html */,
+			);
+			path = NestsWebView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA5F00441AF5C74800CEDCC5 /* Nests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA5F00681AF5C74800CEDCC5 /* Build configuration list for PBXNativeTarget "Nests" */;
+			buildPhases = (
+				DD02D5750456371FD2470743 /* Check Pods Manifest.lock */,
+				DA5F00411AF5C74800CEDCC5 /* Sources */,
+				DA5F00421AF5C74800CEDCC5 /* Frameworks */,
+				DA5F00431AF5C74800CEDCC5 /* Resources */,
+				EF0AA817653E636D4B9814B0 /* Copy Pods Resources */,
+				E05547770B7AF95AE5D89C07 /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nests;
+			productName = Nests;
+			productReference = DA5F00451AF5C74800CEDCC5 /* Nests.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA5F005D1AF5C74800CEDCC5 /* NestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA5F006B1AF5C74800CEDCC5 /* Build configuration list for PBXNativeTarget "NestsTests" */;
+			buildPhases = (
+				DA5F005A1AF5C74800CEDCC5 /* Sources */,
+				DA5F005B1AF5C74800CEDCC5 /* Frameworks */,
+				DA5F005C1AF5C74800CEDCC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA5F00601AF5C74800CEDCC5 /* PBXTargetDependency */,
+			);
+			name = NestsTests;
+			productName = NestsTests;
+			productReference = DA5F005E1AF5C74800CEDCC5 /* NestsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA5F003D1AF5C74800CEDCC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Daisy;
+				TargetAttributes = {
+					DA5F00441AF5C74800CEDCC5 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = U48RTM5GA2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					DA5F005D1AF5C74800CEDCC5 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = U48RTM5GA2;
+						TestTargetID = DA5F00441AF5C74800CEDCC5;
+					};
+				};
+			};
+			buildConfigurationList = DA5F00401AF5C74800CEDCC5 /* Build configuration list for PBXProject "Nests" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = DA5F003C1AF5C74800CEDCC5;
+			productRefGroup = DA5F00461AF5C74800CEDCC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA5F00441AF5C74800CEDCC5 /* Nests */,
+				DA5F005D1AF5C74800CEDCC5 /* NestsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA5F00431AF5C74800CEDCC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACFB8D61C00B8C500E199A2 /* NestsStyleSubtitle_0_TableViewCell.xib in Resources */,
+				DAB805461C13D1F10020A1D8 /* NestsBoardViewController.xib in Resources */,
+				DAB8054B1C13E1280020A1D8 /* NestsQRTableViewCell.xib in Resources */,
+				DA4BE8E31C0A096100645311 /* NestsParallax_0_TableViewCell.xib in Resources */,
+				DAD8E1831C3E824B00FAB5F5 /* NestsWebView.html in Resources */,
+				DA0B4F0E1BF7F15100D9E0AC /* NestsStyleTextField_0_TableViewCell.xib in Resources */,
+				DA04B19D1BEF2FBD00B1EFC7 /* NestsStyleSubtitleTableViewCell.xib in Resources */,
+				DAB805381C13AFD90020A1D8 /* NestsBoardView.xib in Resources */,
+				DAB8E5711BF0D48600E582F2 /* NestsStyleText_0_TableViewCell.xib in Resources */,
+				DA5F00561AF5C74800CEDCC5 /* Images.xcassets in Resources */,
+				DACFB8ED1C0182A400E199A2 /* NestsStyleEvalue_1_TableViewCell.xib in Resources */,
+				DA8642351C30057A00DB07BD /* NestsShopingAppraiseTableViewCell.xib in Resources */,
+				DA1619911BFB6AAC00FC4C1F /* NestsSelectPlan.xib in Resources */,
+				DACFB8E61C01733A00E199A2 /* NestsStyleEvalue_0_TableViewCell.xib in Resources */,
+				DACA1CCB1C0ABB6D00F1EF1D /* NestsStylePattern_2_TableViewCell.xib in Resources */,
+				DA1619961BFB7A2800FC4C1F /* NestsStyleText_1_TableViewCell.xib in Resources */,
+				DACA1CC61C0AB26700F1EF1D /* NestsStylePattern_1_TableViewCell.xib in Resources */,
+				DA5F00B61AF60BDB00CEDCC5 /* birthday.ttf in Resources */,
+				DA5F00AF1AF6080100CEDCC5 /* Localizable.strings in Resources */,
+				DAB8E56C1BF0D2A500E582F2 /* NestsStyleImageTableViewCell.xib in Resources */,
+				DAD8E18B1C3E863000FAB5F5 /* ExampleApp.html in Resources */,
+				DA847DA61C42095600DDFA2E /* NestsWebViewError.html in Resources */,
+				DACFB8DE1C015EEA00E199A2 /* NestsStyleSubtitle_0_0_TableViewCell.xib in Resources */,
+				DAD8E1781C3E7FA300FAB5F5 /* WebViewJavascriptBridge.js.txt in Resources */,
+				DA55F5EE1C8A7DCE009B5D02 /* NestsAppInfoViewController.xib in Resources */,
+				DA86422D1C2FF8E500DB07BD /* score_str.txt in Resources */,
+				DA0B4F291BF8416200D9E0AC /* NestsStyleTextField_2_TableViewCell.xib in Resources */,
+				DAEA03BE1C2A355B00F69850 /* NestsOffLine_1_TableViewCell.xib in Resources */,
+				DAD8E1821C3E824B00FAB5F5 /* NestsWebViewLibrary.js in Resources */,
+				DAFE08621C2A0B7E005B38AB /* NestsOffLine_0_TableViewCell.xib in Resources */,
+				DA847DA51C42095600DDFA2E /* NestsError.png in Resources */,
+				DACA1CB61C0A8E5600F1EF1D /* NestsParallax_1_TableViewCell.xib in Resources */,
+				DA0B4F191BF804B300D9E0AC /* NestsStyleTextField_1_TableViewCell.xib in Resources */,
+				DA5F00B71AF60BDB00CEDCC5 /* digital-7.ttf in Resources */,
+				DA0B4F211BF8163200D9E0AC /* NestsStyleBtn_0_TableViewCell.xib in Resources */,
+				DACA1CC11C0AA85D00F1EF1D /* NestsStylePattern_0_TableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5F005C1AF5C74800CEDCC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD02D5750456371FD2470743 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E05547770B7AF95AE5D89C07 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF0AA817653E636D4B9814B0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA5F00411AF5C74800CEDCC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC627201BA4648C00EFF3B8 /* NestsHomeViewController.m in Sources */,
+				DACA1CBC1C0A922300F1EF1D /* CornerParallaxInfoData+Operation.m in Sources */,
+				DAAF224A1BA506E000B8EBFD /* CornerSettingInfoData.m in Sources */,
+				DACA1CD21C0AE04300F1EF1D /* NestsMMScrollPresenter.m in Sources */,
+				DAD8E17A1C3E7FA300FAB5F5 /* WebViewJavascriptBridgeBase.m in Sources */,
+				DAB8054E1C13E5210020A1D8 /* CornerQCInfoData.m in Sources */,
+				DAB8053B1C13C2CF0020A1D8 /* NestsListViewController.m in Sources */,
+				DA0A70251C02A42A00A8B3BA /* ASIHTTPClicent.m in Sources */,
+				DAEA03C11C2A42CC00F69850 /* MAHeaderView.m in Sources */,
+				DACA1CC51C0AB26700F1EF1D /* NestsStylePattern_1_TableViewCell.m in Sources */,
+				DAD8E1791C3E7FA300FAB5F5 /* WebViewJavascriptBridge.m in Sources */,
+				DA5F009A1AF5EC9000CEDCC5 /* NSData+Helper.m in Sources */,
+				DA5F00AC1AF6022300CEDCC5 /* NestsRootViewController.m in Sources */,
+				DA4094641BAD491400A4E6F1 /* CornerNestsResideMenuInfoData.m in Sources */,
+				DA0CCF951C75204F00396E53 /* NestsEvaluateDetailViewController.m in Sources */,
+				DA25A4541C13036900D8E131 /* NestsQRViewController.m in Sources */,
+				DA0A70351C02A47A00A8B3BA /* CQAnalyticDataInfo.m in Sources */,
+				DA5F00511AF5C74800CEDCC5 /* ViewController.m in Sources */,
+				DA5F00971AF5E40B00CEDCC5 /* UIImageView+Helper.m in Sources */,
+				DA5F007E1AF5DC6F00CEDCC5 /* NestsHelper.m in Sources */,
+				DA16199C1BFB7E3F00FC4C1F /* CornerScoreInfoData+Operation.m in Sources */,
+				DAB8E5671BF0D0FC00E582F2 /* NestsPersonInfoViewController.m in Sources */,
+				DA0B4F091BF7E5A000D9E0AC /* NestsBaseViewController+Helper.m in Sources */,
+				DACA1CB91C0A91FD00F1EF1D /* CornerParallaxInfoData.m in Sources */,
+				DA5F00911AF5E2B600CEDCC5 /* UIView+Helper.m in Sources */,
+				DAB8E56B1BF0D2A500E582F2 /* NestsStyleImageTableViewCell.m in Sources */,
+				DACA1CB51C0A8E5600F1EF1D /* NestsParallax_1_TableViewCell.m in Sources */,
+				DACFB8D91C00BB7300E199A2 /* CornerEvaluateInfoData.m in Sources */,
+				DA5F008B1AF5E28600CEDCC5 /* UIImage+Helper.m in Sources */,
+				DAB805511C13E5440020A1D8 /* CornerQCInfoData+Operation.m in Sources */,
+				DA0A70261C02A42A00A8B3BA /* NetworkHelper.m in Sources */,
+				DA0B4F281BF8416200D9E0AC /* NestsStyleTextField_2_TableViewCell.m in Sources */,
+				DACA1CC01C0AA85D00F1EF1D /* NestsStylePattern_0_TableViewCell.m in Sources */,
+				DA0C49D11BA3F4CD00889688 /* NestsResideMenuLeftMenuViewController.m in Sources */,
+				DAC627231BA4712100EFF3B8 /* NestsSettingViewController.m in Sources */,
+				DA6C2D1B1C1C7A2D00CB329F /* NestsAMapKit.m in Sources */,
+				DAB805361C13AFBE0020A1D8 /* NestsBoardView.m in Sources */,
+				DAB805451C13D1F10020A1D8 /* NestsBoardViewController.m in Sources */,
+				DA12F1FA1BADBF8C00A5C8C4 /* MACalloutView.m in Sources */,
+				DA1619951BFB7A2800FC4C1F /* NestsStyleText_1_TableViewCell.m in Sources */,
+				DAB8E5701BF0D48600E582F2 /* NestsStyleText_0_TableViewCell.m in Sources */,
+				DA0B4F141BF7FD4900D9E0AC /* NestsPersonInfoEditNameViewController.m in Sources */,
+				DA16198F1BFB6A9400FC4C1F /* NestsSelectPlan.m in Sources */,
+				DABA13B01BF8C7C3005762E2 /* NestsScoreViewController.m in Sources */,
+				DACFB8EC1C0182A400E199A2 /* NestsStyleEvalue_1_TableViewCell.m in Sources */,
+				DAB8054A1C13E1280020A1D8 /* NestsQRTableViewCell.m in Sources */,
+				DA4BE8D21C099F0E00645311 /* NestsParallaxViewController.m in Sources */,
+				DAAF22541BA59C5E00B8EBFD /* CornerMessagesInfoData.m in Sources */,
+				DA5F009D1AF5ED0F00CEDCC5 /* NSDate+Helper.m in Sources */,
+				DA5F004E1AF5C74800CEDCC5 /* AppDelegate.m in Sources */,
+				DA5F00941AF5E2E100CEDCC5 /* NSMutableDictionary+Helper.m in Sources */,
+				DAB8053E1C13C2E20020A1D8 /* NestsMapViewController.m in Sources */,
+				DA0B4F181BF804B300D9E0AC /* NestsStyleTextField_1_TableViewCell.m in Sources */,
+				DA0C49CF1BA3F4CD00889688 /* NestsResideMenuFirstViewController.m in Sources */,
+				DA0B4F241BF8235000D9E0AC /* NestsLoginViewController.m in Sources */,
+				DA0CCF9E1C75309200396E53 /* CornerShopingAppraiseInfoData+Operation.m in Sources */,
+				DA5F00841AF5E20A00CEDCC5 /* NestsKit.m in Sources */,
+				DA4BE8E21C0A096100645311 /* NestsParallax_0_TableViewCell.m in Sources */,
+				DA5F00A01AF5FC9100CEDCC5 /* LibraryAPI.m in Sources */,
+				DA5F00BB1AF6450800CEDCC5 /* SvUDIDTools.m in Sources */,
+				DA4BE8D81C09F94700645311 /* UIImage+ImageEffects.m in Sources */,
+				DA41085A1C2E3FEF001A40D6 /* NestsCountButton.m in Sources */,
+				DACFB8DC1C00BBA000E199A2 /* CornerEvaluateInfoData+Operation.m in Sources */,
+				DA0CCF981C75301000396E53 /* CornerShopingAppraiseInfoData.m in Sources */,
+				DA0B4F0D1BF7F15100D9E0AC /* NestsStyleTextField_0_TableViewCell.m in Sources */,
+				DAAF224D1BA5075A00B8EBFD /* CornerSettingInfoData+Operation.m in Sources */,
+				DACFB8E51C01733A00E199A2 /* NestsStyleEvalue_0_TableViewCell.m in Sources */,
+				DA04B1A31BEF39E200B1EFC7 /* CornerHomeInfoData.m in Sources */,
+				DA04B19C1BEF2FBD00B1EFC7 /* NestsStyleSubtitleTableViewCell.m in Sources */,
+				DACFB8D51C00B8C500E199A2 /* NestsStyleSubtitle_0_TableViewCell.m in Sources */,
+				DAAF22511BA5920300B8EBFD /* NestsSQLite.m in Sources */,
+				DA5F00A91AF6020000CEDCC5 /* NestsBaseViewController.m in Sources */,
+				DAE9D40E1BA7153300E7E2B3 /* UITextView+Helper.m in Sources */,
+				DAD8E1861C3E829C00FAB5F5 /* NestsWebViewController.m in Sources */,
+				DAFE08611C2A0B7E005B38AB /* NestsOffLine_0_TableViewCell.m in Sources */,
+				DAEA03BD1C2A355B00F69850 /* NestsOffLine_1_TableViewCell.m in Sources */,
+				DA04B1A61BEF39F700B1EFC7 /* CornerHomeInfoData+Operation.m in Sources */,
+				DA1619991BFB7E2200FC4C1F /* CornerScoreInfoData.m in Sources */,
+				DA0C49D01BA3F4CD00889688 /* NestsResideMenuSecondViewController.m in Sources */,
+				DABA48191C2ED14400936F49 /* NestsAreaViewController.m in Sources */,
+				DA0A70371C02A47A00A8B3BA /* CQASIHTTPRequestAttribute.m in Sources */,
+				DACA1CD11C0AE04300F1EF1D /* NestsMMScrollPage.m in Sources */,
+				DA8642341C30057A00DB07BD /* NestsShopingAppraiseTableViewCell.m in Sources */,
+				DA0B4F201BF8163200D9E0AC /* NestsStyleBtn_0_TableViewCell.m in Sources */,
+				DA0A70361C02A47A00A8B3BA /* CQASIHttpClient.m in Sources */,
+				DA5F00A31AF5FD7300CEDCC5 /* NestsSceneDispatch.m in Sources */,
+				DA0A703A1C02A47A00A8B3BA /* CQNetworkProgressView.m in Sources */,
+				DAB8E5771BF0D8E400E582F2 /* CornerPersonInfoData+Operation.m in Sources */,
+				DA4094671BAD495A00A4E6F1 /* CornerNestsResideMenuInfoData+Operation.m in Sources */,
+				DA5F004B1AF5C74800CEDCC5 /* main.m in Sources */,
+				DAB8E5741BF0D8C400E582F2 /* CornerPersonInfoData.m in Sources */,
+				DAD8E17B1C3E7FA300FAB5F5 /* WKWebViewJavascriptBridge.m in Sources */,
+				DA5F00881AF5E26C00CEDCC5 /* NSString+Helper.m in Sources */,
+				DACA1CCA1C0ABB6D00F1EF1D /* NestsStylePattern_2_TableViewCell.m in Sources */,
+				DA55F5EF1C8A7DCE009B5D02 /* NestsAppInfoViewController.m in Sources */,
+				DA5F008E1AF5E29F00CEDCC5 /* NSObject+Helper.m in Sources */,
+				DA0C49D21BA3F4CD00889688 /* NestsResideMenuRightMenuViewController.m in Sources */,
+				DA4BE8DB1C09F95E00645311 /* NestsParallaxHeaderView.m in Sources */,
+				DA0A70381C02A47A00A8B3BA /* CQASIHTTPRequestHTTPClient.m in Sources */,
+				DA8642301C30019800DB07BD /* NestsShopingAppraiseViewController.m in Sources */,
+				DA0B4F1C1BF8124C00D9E0AC /* NestsPersonInfoPhoneViewController.m in Sources */,
+				DAC627291BA471E200EFF3B8 /* NestsEvaluateViewController.m in Sources */,
+				DA0B4F111BF7FC1600D9E0AC /* UIViewController+Helper.m in Sources */,
+				DACFB8E11C016EAE00E199A2 /* NestsEvaluateBIZViewController.m in Sources */,
+				DAFE085D1C2A0871005B38AB /* NestsOfflineDetailViewController.m in Sources */,
+				DA0A70391C02A47A00A8B3BA /* CQHttpClient.m in Sources */,
+				DAAF22571BA59C7A00B8EBFD /* CornerMessagesInfoData+Operation.m in Sources */,
+				DA12F1FD1BADC0AA00A5C8C4 /* MAForAnnotationView.m in Sources */,
+				DAD8E1891C3E82AC00FAB5F5 /* NestsMessageViewController.m in Sources */,
+				DA0B4F061BF7DF4900D9E0AC /* NestsPersonInfoEditViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA5F005A1AF5C74800CEDCC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5F00651AF5C74800CEDCC5 /* NestsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA5F00601AF5C74800CEDCC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA5F00441AF5C74800CEDCC5 /* Nests */;
+			targetProxy = DA5F005F1AF5C74800CEDCC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA5F00B11AF6080100CEDCC5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA5F00B01AF6080100CEDCC5 /* en */,
+				DA5F00B31AF6088100CEDCC5 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA5F00661AF5C74800CEDCC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 云川 桂 (9DK58563Y7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 云川 桂 (9DK58563Y7)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "cd9da07b-0a31-422a-96b7-2dddf2427702";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA5F00671AF5C74800CEDCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 云川 桂 (9DK58563Y7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 云川 桂 (9DK58563Y7)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "cd9da07b-0a31-422a-96b7-2dddf2427702";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA5F00691AF5C74800CEDCC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301D4BA696681EE0DE7A03B7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Nests/Nests.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Nests/Configs/Nests-Prefix.pch";
+				INFOPLIST_FILE = Nests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.score.user;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DA5F006A1AF5C74800CEDCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF52D01B94B9728EC17E217 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Nests/Nests.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				ENABLE_BITCODE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/Nests/Configs/Nests-Prefix.pch";
+				INFOPLIST_FILE = Nests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.score.user;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		DA5F006C1AF5C74800CEDCC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NestsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nests.app/Nests";
+			};
+			name = Debug;
+		};
+		DA5F006D1AF5C74800CEDCC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NestsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nests.app/Nests";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA5F00401AF5C74800CEDCC5 /* Build configuration list for PBXProject "Nests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5F00661AF5C74800CEDCC5 /* Debug */,
+				DA5F00671AF5C74800CEDCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA5F00681AF5C74800CEDCC5 /* Build configuration list for PBXNativeTarget "Nests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5F00691AF5C74800CEDCC5 /* Debug */,
+				DA5F006A1AF5C74800CEDCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA5F006B1AF5C74800CEDCC5 /* Build configuration list for PBXNativeTarget "NestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA5F006C1AF5C74800CEDCC5 /* Debug */,
+				DA5F006D1AF5C74800CEDCC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA5F003D1AF5C74800CEDCC5 /* Project object */;
+}
